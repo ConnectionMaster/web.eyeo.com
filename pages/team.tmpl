@@ -1,0 +1,45 @@
+<header class="page-title">
+  <h1>Meet the Team</h1>
+</header>
+
+{% macro profile(image, name, title, description) %}
+  <div class="profile column">
+    <p>
+      <img class="profile-image" src="/images/people/{{image}}" width="120" height="120" alt=""/>
+    </p>
+    <h3 class="heading centered"><span>{{title}}</span></h3>
+    <h1>{{name}}</h1>
+    <h2>{{description}}</h2>
+  </div>
+{% endmacro %}
+
+<div class="columns-container four-columns team-row">
+{% for person in [
+  ("palant.png", "Wladimir Palant", "Founder & CTO", "Computer scientist and the original developer of Adblock Plus"),
+  ("faida.png", "Till Faida", "Founder & CEO", "Entrepreneur with a professional background in online marketing"),
+  ("schumacher.jpeg", "Tim Schumacher", "Investor & Advisor", "Serial entrepreneur with a passion for challenging Internet projects"),
+  ("dahlke.png", "Felix Dahlke", "Lead Developer", "Description goes here. Let me know your short bio."),
+  ("dommers.png", "Christian Dommers", "Head of Business Development", "Business developer, entrepreneur and project manager with a background in Internet publishing"),
+  ("kawa.jpeg", "Arthur Kawa", "IT Officer Trainee", "Longtime Adblock Plus contributor, loves music, concerts and bacon"),
+  ("plas.png", "Job Plas", "Project Manager", "Passionate about everything tech. Loves The Office, Gangnam Style and schnitzel. MSc & BBA in international business."),
+  ("hughes.png", "Eric Hughes", "Developer", "Description goes here. Let me know your short bio."),
+  ("hartz.png", "Sven Hartz", "User Experience Designer", "Computer scientist and creative head with a passion for making things clean and simple"),
+  ("noack.png", "Sebastian Noack", "Developer", "Open source developer since 2004, into volleyball, board games and crocheting"),
+  ("wilms.png", "Nadja Wilms", "Office Assistant", "Description goes here. Let me know your short bio."),
+  ("ben.jpeg", "Ben Williams", "PR Manager", "Lion-tamer, ex-football star, used to date a model with only one name."),
+  ("lai.jpeg", "Xiaojun Lai", "Country Manager China", "MS in international business, loves traveling and cooking."),
+  ("greiner.jpeg", "Thomas Greiner", "Developer", "Web enthusiast and developer with strong beliefs on openness, transparency and accessibility"),
+  ("paraska.jpeg", "Oleksandr Paraska", "Developer", "Longtime Adblock Plus for IE developer (yes, seriously). Loves making crêpes."),
+  ("caballero.jpeg", "Manuel Caballero", "Junior Project Manager", "PhD candidate in art history, country manager for Spain & LatAm, Germanophile and metal head"),
+  ("vervoorts.png", "Christian Vervoorts", "IT Admin", "Linux expert who keeps our server and networks running smoothly"),
+  ("carrales.png", "Adrian Carrales", "Intern", "International business student, with a passion for marketing, sports and music"),
+  ("yu.jpeg", "Vicky Yu", "Intern", "IT outsider, enjoy researching, occasional wanderlust"),
+] %}
+  {% if loop.index % 4 == 1 and not loop.first %}
+    </div>
+    <div class="columns-container four-columns team-row">
+  {% endif %}
+
+  {{profile(*person)}}
+{% endfor %}
+</div>

@@ -1,0 +1,41 @@
+<p id="logo-container">
+  <img src="/images/home1.jpg" width="1080" height="460" alt="">
+</p>
+
+<div id="who-we-are" class="columns-container two-columns">
+  <div class="column" markdown="1">
+    <? include index/whoweare ?>
+  </div>
+
+  <div class="column">
+    <? include index/mission ?>
+  </div>
+</div>
+
+<div id="our-work">
+  <div id="our-work-wrapper">
+    <h1 class="heading centered"><span>What we are working on:</span></h1>
+
+    <div class="columns-container four-columns">
+      <div class="column">
+        <? include index/ourwork-betterads ?>
+      </div>
+
+      <div class="column">
+        <? include index/ourwork-privacy ?>
+      </div>
+
+      <div class="column">
+        <? include index/ourwork-security ?>
+      </div>
+
+      <div class="column">
+        <? include index/ourwork-opensource ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="media">
+  <? include index/media ?>
+</div>

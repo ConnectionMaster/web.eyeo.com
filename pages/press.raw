@@ -1,0 +1,50 @@
+<script src="/js/jquery.ui.core.min.js"></script>
+<script src="/js/jquery.ui.widget.min.js"></script>
+<script src="/js/jquery.ui.tabs.min.js"></script>
+<script>
+  jQuery(function()
+  {
+    jQuery("#tabs").tabs();
+  });
+</script>
+
+<header class="page-title">
+  <h1>Press</h1>
+</header>
+
+<div id="press-info" class="column-container two-sidebars">
+  <div class="column sidebar-left">
+    <? include press/contact ?>
+  </div>
+  <div class="column">
+    <? include press/overview ?>
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#company-info">Company information</a></li>
+        <li><a href="#faq">Media FAQs</a></li>
+        <li><a href="#facts">Facts &amp; figures</a></li>
+        <li><a href="#media">Media</a></li>
+      </ul>
+
+      <div id="company-info">
+        <? include press/company-info ?>
+      </div>
+
+      <div id="faq">
+        <? include press/faq ?>
+      </div>
+
+      <div id="facts">
+        <? include press/facts ?>
+      </div>
+
+      <div id="media">
+        <? include press/media ?>
+      </div>
+    </div>
+  </div>
+  <div class="column sidebar-right">
+    <? include press/videos ?>
+  </div>
+</div>
