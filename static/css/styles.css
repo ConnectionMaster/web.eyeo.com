@@ -609,7 +609,16 @@ button:focus,
 .ui-accordion-content
 {
   padding-left: 56px;
-  margin-top: 1em;
+}
+
+.ui-accordion-content > :first-child
+{
+  margin-top: 0;
+}
+
+.ui-accordion-content > :last-child
+{
+  margin-bottom: 0;
 }
 
 /*
