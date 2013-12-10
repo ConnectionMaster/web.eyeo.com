@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{{title|translate}} | Eyeo GmbH</title>
+  <title>{{title}} | Eyeo GmbH</title>
 
   <link rel="shortcut icon" href="/images/favicon.png" />
 
@@ -31,11 +31,11 @@
         <a href="{{source.resolve_link("jobs", locale)[1]}}" hreflang="{{source.resolve_link("jobs", locale)[0]}}" class="menu-button">Join us - we are hiring!</a>
 
         <ul class="menu-list">
-          {%- for link in ["index", "team", "press", "contact",] %}
+          {%- for link, title in [("index", "About Us"), ("team", "Team"), ("press", "Press"), ("contact", "Contact Us")] %}
             {%- if link == page %}
-              <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">{{link|linkify}}<span>{{"title"|translate(link)}}</span></a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">{{link|linkify}}<span>{{title}}</span></a></li>
             {%- else %}
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">{{link|linkify}}<span>{{"title"|translate(link)}}</span></a></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">{{link|linkify}}<span>{{title}}</span></a></li>
             {%- endif %}
           {%- endfor %}
         </ul>
