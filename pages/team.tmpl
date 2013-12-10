@@ -13,7 +13,7 @@
   </div>
 {% endmacro %}
 
-<div class="columns-container four-columns team-row">
+<div class="content-block columns-container four-columns">
 {% for person in [
   ("palant.png", "Wladimir Palant", "Founder & CTO", "Computer scientist and the original developer of Adblock Plus"),
   ("faida.png", "Till Faida", "Founder & CEO", "Entrepreneur with a professional background in online marketing"),
@@ -37,7 +37,7 @@
 ] %}
   {% if loop.index % 4 == 1 and not loop.first %}
     </div>
-    <div class="columns-container four-columns team-row">
+    <div class="content-block columns-container four-columns">
   {% endif %}
 
   {{profile(*person)}}

@@ -268,44 +268,11 @@ h6
   content: "\25B2";
 }
 
-#who-we-are,
-#our-work-wrapper,
-#media,
-#press-info,
-.team-row,
-#contact-info,
-#jobs-info,
-.page-title h1,
-#header-content,
-#footer-content
+.content-block,
+.page-title h1
 {
   max-width: 1080px;
   margin: 0 auto;
-}
-
-#logo-container
-{
-  background-color: #f0f0f0;
-  text-align:center;
-  margin: 0;
-}
-
-#who-we-are
-{
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-#our-work
-{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #f0f0f0;
-}
-
-#media
-{
-  margin-top: 25px;
 }
 
 .heading
@@ -322,16 +289,6 @@ h6
   padding: 0;
   padding-right: 10px;
   background-color: #fff;
-}
-
-#our-work .heading span
-{
-  background-color: #f0f0f0;
-}
-
-#our-work .column
-{
-  text-align: center;
 }
 
 .centered
@@ -359,6 +316,7 @@ button, .menu-button
   height: 36px;
   padding: 0 20px;
 }
+
 button:hover,
 button:focus,
 .menu-button:hover,
@@ -375,6 +333,45 @@ button:focus,
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 40px;
+}
+
+/*
+ * Page-specific styles
+ */
+
+#home-image-container
+{
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+}
+
+#who-we-are
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#our-work
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f0f0f0;
+}
+
+#media
+{
+  margin-top: 25px;
+}
+
+#our-work .heading span
+{
+  background-color: #f0f0f0;
+}
+
+#our-work .column
+{
+  text-align: center;
 }
 
 .profile
@@ -476,6 +473,7 @@ button:focus,
 /*
  * Tabs
  */
+
 .ui-tabs-nav
 {
   padding: 0;
@@ -491,6 +489,7 @@ button:focus,
   display: table;
   content: "";
 }
+
 .ui-tabs-nav:after
 {
   clear: both;
@@ -600,6 +599,7 @@ button:focus,
   content: "\25BA"; /* right pointing triangle */
   line-height: 44px;
 }
+
 .ui-accordion-header.ui-state-active:before
 {
   content: "\25BC";  /* down pointing triange */

@@ -1,8 +1,8 @@
-<p id="logo-container">
+<p id="home-image-container">
   <img src="/images/home1.jpg" width="1080" height="460" alt="">
 </p>
 
-<div id="who-we-are" class="columns-container two-columns">
+<div id="who-we-are" class="content-block columns-container two-columns">
   <div class="column" markdown="1">
     <? include index/whoweare ?>
   </div>
@@ -13,7 +13,7 @@
 </div>
 
 <div id="our-work">
-  <div id="our-work-wrapper">
+  <div class="content-block">
     <h1 class="heading centered"><span>What we are working on:</span></h1>
 
     <div class="columns-container four-columns">
@@ -36,6 +36,6 @@
   </div>
 </div>
 
-<div id="media">
+<div id="media" class="content-block">
   <? include index/media ?>
 </div>

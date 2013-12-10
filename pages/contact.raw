@@ -2,7 +2,7 @@
   <h1>Contact Us</h1>
 </header>
 
-<div id="contact-info" class="column-container two-sidebars">
+<div id="contact-info" class="content-block column-container two-sidebars">
   <div class="column sidebar-left">
     <? include contact/address ?>
   </div>
