@@ -627,7 +627,7 @@ button:focus,
 }
 
 /*
- * Form validation
+ * Form controls
  */
 
 form label.error,
@@ -636,7 +636,66 @@ form p.error
   background-color: #ffeaea;
   border: 1px solid #feabab;
   color: #eb1515;
+  margin-top: 5px;
   padding: 6px;
   text-align: center;
   display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+textarea
+{
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05) inset;
+  background-color: #fff;
+  color: #7d7d7d;
+  font-size: 13px;
+  padding: 6px 10px;
+  height: 38px;
+  width: 100%;
+  max-width: 400px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea
+{
+  display: block;
+  max-width: 700px;
+  height: 136px;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="tel"]:hover,
+input[type="number"]:hover,
+input[type="range"]:hover,
+input[type="date"]:hover,
+textarea:hover,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+textarea:focus
+{
+  background-color: #fbfbfb;
+  border-color: #b5b5b5;
 }
