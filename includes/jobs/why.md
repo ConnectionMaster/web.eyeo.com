@@ -12,7 +12,7 @@ We’re well aware that we threaten long-established paradigms by asking if the 
 
 **We don’t get bored in Cologne but you don’t have to live here to work here**
 
-The English writer Samuel Johnson once said that “when a man is tired of London, he is tired of life.” We’d say the same about Cologne. But none of us are from here: in all, our 19 people represent 8 countries, and we haven’t yet found a way to get bored — at work or after.
+The English writer Samuel Johnson once said that “when a man is tired of London, he is tired of life.” We’d say the same about Cologne. But none of us are from here: in all, our <? include size-of-team ?> people represent 8 countries, and we haven’t yet found a way to get bored — at work or after.
 
 That being said, about half of us work from home — no matter where that home may be. We’re happy to let you work from wherever you’re most comfortable.
 
