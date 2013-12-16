@@ -711,7 +711,7 @@ header > *, .content-block
   max-width: 1080px;
 }
 
-@media (max-width: 800px)
+@media (max-width: 750px)
 {
   .columns-container .column
   {
