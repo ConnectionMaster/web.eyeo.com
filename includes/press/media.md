@@ -7,5 +7,21 @@
 [![YouTube ad blocking](/images/media/youtube_ads_small.png)](/images/media/youtube_ads.png)
 [![Facebook ad blocking](/images/media/facebook_ads_small.png)](/images/media/facebook_ads.png)
 [![NY Times ad blocking](/images/media/nytimes_ads_small.png)](/images/media/nytimes_ads.png)
+{#media-gallery}
 
 *[License information]*
+
+<script src="/js/jquery.lightbox.min.js"></script>
+<link rel="stylesheet" href="/css/jquery.lightbox.css" type="text/css" media="screen">
+<script>
+  jQuery(function()
+  {
+    jQuery("#media a").lightBox({
+      imageBtnPrev: "/images/lightbox/btn-prev.gif",
+      imageBtnNext: "/images/lightbox/btn-next.gif",
+      imageBtnClose: "/images/lightbox/btn-close.gif",
+      imageLoading: "/images/lightbox/ico-loading.gif",
+      imageBlank: "/images/lightbox/blank.gif"
+    });
+  });
+</script>

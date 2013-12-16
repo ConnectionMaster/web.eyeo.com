@@ -4,3 +4,19 @@ Our office is part of the [Clusterhaus](http://clusterhaus.de), a 6,000-plus squ
 [![Clusterhaus](/images/office/clusterhaus_small.jpg)](/images/office/clusterhaus.jpg)
 [![Ping pong](/images/office/pingpong_small.jpg)](/images/office/pingpong.jpg)
 [![Coffee](/images/office/coffee_small.jpg)](/images/office/coffee.jpg)
+{#office-gallery}
+
+<script src="/js/jquery.lightbox.min.js"></script>
+<link rel="stylesheet" href="/css/jquery.lightbox.css" type="text/css" media="screen">
+<script>
+  jQuery(function()
+  {
+    jQuery("#office-gallery a").lightBox({
+      imageBtnPrev: "/images/lightbox/btn-prev.gif",
+      imageBtnNext: "/images/lightbox/btn-next.gif",
+      imageBtnClose: "/images/lightbox/btn-close.gif",
+      imageLoading: "/images/lightbox/ico-loading.gif",
+      imageBlank: "/images/lightbox/blank.gif"
+    });
+  });
+</script>
