@@ -28,7 +28,7 @@ Simply sign up for our forum [here](https://adblockplus.org/forum/)! (Click Regi
 
 **How many employees do you have?**
 
-<? include size-of-team ?>
+<p><? include size-of-team ?></p>
 
 **What is the process for being whitelisted?**
 
