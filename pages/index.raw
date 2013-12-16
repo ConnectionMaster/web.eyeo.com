@@ -1,7 +1,7 @@
 title=About Us
 
 <p id="home-image-container">
-  <img src="/images/home1.jpg" width="1080" height="460" alt="">
+  <img src="/images/home1.jpg" alt="">
 </p>
 
 <div id="who-we-are" class="content-block columns-container two-columns">

@@ -699,3 +699,45 @@ textarea:focus
   background-color: #fbfbfb;
   border-color: #b5b5b5;
 }
+
+header > *, .content-block
+{
+  padding: 0 10px;
+}
+
+#home-image-container img
+{
+  width: 100%;
+  max-width: 1080px;
+}
+
+@media (max-width: 800px)
+{
+  .columns-container .column
+  {
+    width: 100%;
+    margin-left: 0;
+    clear: both;
+  }
+
+  #logo
+  {
+    padding: 5px 0;
+  }
+
+  #menu .menu-list
+  {
+    clear: both;
+    margin-left: -100px;
+  }
+
+  #menu .menu-button
+  {
+    margin-top: 5px;
+  }
+
+  #press-info .sidebar-left
+  {
+    text-align: inherit;
+  }
+}
