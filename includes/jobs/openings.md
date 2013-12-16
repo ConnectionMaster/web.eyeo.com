@@ -1,7 +1,7 @@
 #### HR Manager ####{.toggle}
 
 <div markdown>
-  HR description
+  HR description (TODO: add text here)
 </div>
 
 #### C++ Developer ####{.toggle}
