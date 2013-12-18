@@ -14,7 +14,7 @@ title=Press
   <h1>Press</h1>
 </header>
 
-<div id="press-info" class="content-block column-container two-sidebars">
+<div id="press-info" class="content-block columns-container two-sidebars">
   <div class="column sidebar-left">
     <? include press/contact ?>
   </div>
