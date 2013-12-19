@@ -1,4 +1,4 @@
-<span>Who we are</span>{.heading}
+<span>Who we are</span>{#whoweare .heading}
 =================================
 
 With the help of an international community of volunteers, we develop open source software that millions of people use every day to have a better online experience. Our solutions such as [Adblock Plus](https://adblockplus.org/), which, having amassed over 250 million downloads, is the most popular add-on ever, put users in control over the kind of content they see online. Beyond that, we build software that encourages positive, informative advertising and privacy protection practices.
