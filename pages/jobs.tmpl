@@ -1,0 +1,75 @@
+title=Working at Eyeo
+
+{% set openings = ("HR Manager", "C++ Developer", "Browser Extension Developer", "PR Intern") %}
+
+<script src="/js/jquery.ui.core.min.js"></script>
+<script src="/js/jquery.ui.widget.min.js"></script>
+<script src="/js/jquery.ui.tabs.min.js"></script>
+<script>
+  jQuery(function()
+  {
+    jQuery(
+      "ul:first", jQuery("#tabs-openings").tabs({
+        collapsible: true,
+        active: false
+      })
+    ).addClass("ui-tabs-nav-vertical");
+
+    jQuery("#tabs-details").tabs();
+  });
+</script>
+
+
+<header class="page-title">
+  <h1>Working at Eyeo</h1>
+</header>
+
+<div id="jobs-info" class="content-block">
+  <div id="tabs-openings" class="columns-container one-sidebar">
+    <div class="column sidebar-left">
+      <h3 class="heading centered"><span>Current openings:</span></h3>
+
+      <ul>
+        {% for title in openings %}
+          <li><a href="#job-{{ loop.index }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <p id="ihk-logo">
+        <img src="/images/ihk.png" alt="IHK Ausbildungsbetrieb" width="120" height="80">
+      </p>
+    </div>
+
+    <div class="column">
+      <div id="panels-openings">
+        {% for title in openings %}
+          <div id="job-{{ loop.index }}">
+            <? include jobs/openings/{{ title|lower|replace(" ", "-") }} ?>
+          </div>
+        {% endfor %}
+      </div>
+
+      <? include jobs/overview ?>
+
+      <div id="tabs-details">
+        <ul>
+          <li><a href="#why">Why work with us?</a></li>
+          <li><a href="#benefits">Employee benefits</a></li>
+          <li><a href="#office">Our office</a></li>
+        </ul>
+
+        <div id="why">
+          <? include jobs/why ?>
+        </div>
+
+        <div id="benefits">
+          <? include jobs/benefits ?>
+        </div>
+
+        <div id="office">
+          <? include jobs/office ?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

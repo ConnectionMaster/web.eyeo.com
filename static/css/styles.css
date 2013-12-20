@@ -711,6 +711,11 @@ header > *, .content-block
   max-width: 1080px;
 }
 
+#ihk-logo {
+  float: left;
+  margin-top: 20px;
+}
+
 @media (max-width: 750px)
 {
   .columns-container .column
@@ -739,5 +744,44 @@ header > *, .content-block
   #press-info .sidebar-left
   {
     text-align: inherit;
+  }
+
+  #ihk-logo
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 751px)
+{
+  .ui-tabs-nav-vertical
+  {
+    padding: .2em .1em .2em .2em;
+    float: left; width: 100%;
+    border-bottom: none;
+  }
+  .ui-tabs-nav-vertical li
+  {
+    clear: left;
+    width: 100%;
+    border-bottom-width: 1px !important;
+    border-left: 1px solid #E1E1E1 !important;
+    margin: 0 -1px .2em 0;
+  }
+  .ui-tabs-nav-vertical li.ui-tabs-active
+  {
+    padding-bottom: 0;
+    padding-right: .1em;
+    border-right-width: 1px;
+    border-right-width: 1px;
+  }
+
+  #jobs-info h1
+  {
+    margin-top: 0;
+  }
+  #panels-openings > *
+  {
+    margin-top: 10px;
   }
 }
