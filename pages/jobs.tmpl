@@ -9,10 +9,7 @@ title=Working at Eyeo
   jQuery(function()
   {
     jQuery(
-      "ul:first", jQuery("#tabs-openings").tabs({
-        collapsible: true,
-        active: false
-      })
+      "ul:first", jQuery("#tabs-openings").tabs()
     ).addClass("ui-tabs-nav-vertical");
 
     jQuery("#tabs-details").tabs();
@@ -30,6 +27,7 @@ title=Working at Eyeo
       <h3 class="heading centered"><span>Current openings:</span></h3>
 
       <ul>
+        <li id="jobs-overview-tab"><a href="#jobs-overview"></a></li>
         {% for title in openings %}
           <li><a href="#job-{{ loop.index }}">{{ title }}</a></li>
         {% endfor %}
@@ -42,33 +40,35 @@ title=Working at Eyeo
 
     <div class="column">
       <div id="panels-openings">
+        <div id="jobs-overview">
+          <? include jobs/overview ?>
+
+          <div id="tabs-details">
+            <ul>
+              <li><a href="#why">Why work with us?</a></li>
+              <li><a href="#benefits">Employee benefits</a></li>
+              <li><a href="#office">Our office</a></li>
+            </ul>
+
+            <div id="why">
+              <? include jobs/why ?>
+            </div>
+
+            <div id="benefits">
+              <? include jobs/benefits ?>
+            </div>
+
+            <div id="office">
+              <? include jobs/office ?>
+            </div>
+          </div>
+        </div>
+
         {% for title in openings %}
           <div id="job-{{ loop.index }}">
             <? include jobs/openings/{{ title|lower|replace(" ", "-") }} ?>
           </div>
         {% endfor %}
-      </div>
-
-      <? include jobs/overview ?>
-
-      <div id="tabs-details">
-        <ul>
-          <li><a href="#why">Why work with us?</a></li>
-          <li><a href="#benefits">Employee benefits</a></li>
-          <li><a href="#office">Our office</a></li>
-        </ul>
-
-        <div id="why">
-          <? include jobs/why ?>
-        </div>
-
-        <div id="benefits">
-          <? include jobs/benefits ?>
-        </div>
-
-        <div id="office">
-          <? include jobs/office ?>
-        </div>
       </div>
     </div>
   </div>

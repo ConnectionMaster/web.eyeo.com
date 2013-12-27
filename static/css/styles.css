@@ -711,6 +711,11 @@ header > *, .content-block
   max-width: 1080px;
 }
 
+#jobs-overview-tab
+{
+  display: none;
+}
+
 #ihk-logo {
   float: left;
   margin-top: 20px;
@@ -776,12 +781,12 @@ header > *, .content-block
     border-right-width: 1px;
   }
 
-  #jobs-info h1
-  {
-    margin-top: 0;
-  }
   #panels-openings > *
   {
     margin-top: 10px;
+  }
+  #jobs-overview
+  {
+    margin-top: -53px;
   }
 }
