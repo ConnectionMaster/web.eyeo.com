@@ -781,12 +781,8 @@ header > *, .content-block
     border-right-width: 1px;
   }
 
-  #panels-openings > *
+  #panels-openings
   {
-    margin-top: 10px;
-  }
-  #jobs-overview
-  {
-    margin-top: -53px;
+    margin-top: -40px;
   }
 }

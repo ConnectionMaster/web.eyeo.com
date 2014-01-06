@@ -66,6 +66,7 @@ title=Working at Eyeo
 
         {% for title in openings %}
           <div id="job-{{ loop.index }}">
+            <h2>{{ title }}</h2>
             <? include jobs/openings/{{ title|lower|replace(" ", "-") }} ?>
           </div>
         {% endfor %}
