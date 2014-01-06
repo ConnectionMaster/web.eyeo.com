@@ -1,6 +1,7 @@
 title=Working at Eyeo
 
 {% set openings = ("HR Manager", "C++ Developer", "Browser Extension Developer", "PR Intern") %}
+{% macro slugify(title) %}{{ title|lower|replace(" ", "-") }}{% endmacro %}
 
 <script src="/js/jquery.ui.core.min.js"></script>
 <script src="/js/jquery.ui.widget.min.js"></script>
@@ -29,7 +30,7 @@ title=Working at Eyeo
       <ul>
         <li id="jobs-overview-tab"><a href="#jobs-overview"></a></li>
         {% for title in openings %}
-          <li><a href="#job-{{ loop.index }}">{{ title }}</a></li>
+          <li><a href="#{{ slugify(title) }}">{{ title }}</a></li>
         {% endfor %}
       </ul>
 
@@ -65,9 +66,9 @@ title=Working at Eyeo
         </div>
 
         {% for title in openings %}
-          <div id="job-{{ loop.index }}">
+          <div id="{{ slugify(title) }}">
             <h2>{{ title }}</h2>
-            <? include jobs/openings/{{ title|lower|replace(" ", "-") }} ?>
+            <? include jobs/openings/{{ slugify(title) }} ?>
           </div>
         {% endfor %}
       </div>
