@@ -47,6 +47,22 @@ title=Press
     </div>
   </div>
   <div class="column sidebar-right">
-    <? include press/videos ?>
+    <h3 class="heading centered">
+      <span>Recent coverage:</span>
+    </h3>
+
+    <div id="editors-and-publisher">
+      <a href="http://www.editorandpublisher.com/Features/Article/Companies-Bringing-Added-Value-to-Newspapers">
+        <img src="/images/editors-and-publisher.png" alt="Editors & Publisher" width="200">
+      </a>
+      <p>
+        Adblock Plus: listed by Editor & Publisher as a company bringing added value to newspapers.
+      </p>
+    </div>
+
+    <p>
+      <iframe src="//player.vimeo.com/video/78828081" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+      <a href="http://vimeo.com/78828081">Ben @ ad:tech New York</a> with Mike Daly of <a href="http://www.adotas.com/">Adotas</a>.
+    </p>
   </div>
 </div>
