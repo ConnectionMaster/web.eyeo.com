@@ -716,9 +716,18 @@ header > *, .content-block
   display: none;
 }
 
-#ihk-logo {
+#ihk-logo
+{
   float: left;
   margin-top: 20px;
+}
+
+#editors-and-publisher
+{
+  background-color: #fbfbfb;
+  padding: 12px 8px;
+  padding-bottom: 1px;
+  text-align: center;
 }
 
 @media (max-width: 750px)
