@@ -4,8 +4,8 @@
 
 ### <span>Contact details:</span> ###{.heading}
 
-Job applications: jobs@eyeo.com<br>
-PR: press@eyeo.com<br>
+Job applications: [jobs@eyeo.com](mailto:jobs@eyeo.com)<br>
+PR: [press@eyeo.com](mailto:press@eyeo.com)<br>
 Phone: +49 (0) 221 / 65028 598<br>
 Fax: +49 (0) 221 / 65028 599
 
