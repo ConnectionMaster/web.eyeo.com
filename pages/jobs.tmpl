@@ -10,7 +10,13 @@ title=Working at Eyeo
   jQuery(function()
   {
     jQuery(
-      "ul:first", jQuery("#tabs-openings").tabs()
+      "ul:first", jQuery("#tabs-openings").tabs(
+      {
+        activate: function(event, ui)
+        {
+          location.hash = ui.newTab.find("a")[0].hash;
+        }
+      })
     ).addClass("ui-tabs-nav-vertical");
 
     jQuery("#tabs-details").tabs();
