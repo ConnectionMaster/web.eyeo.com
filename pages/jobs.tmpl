@@ -14,12 +14,21 @@ title=Working at Eyeo
       {
         activate: function(event, ui)
         {
-          location.hash = ui.newTab.find("a")[0].hash;
+          var hash = ui.newTab.find("a")[0].hash;
+          if (hash != "#jobs-overview")
+            location.hash = hash;
         }
       })
     ).addClass("ui-tabs-nav-vertical");
 
     jQuery("#tabs-details").tabs();
+
+    jQuery(window).on("hashchange", function()
+    {
+      var hash = location.hash != "" ? location.hash : "#jobs-overview";
+      var escapedHash = hash.replace(/\+/g, "\\+");
+      jQuery("[href=" + escapedHash + "]").click();
+    });
   });
 </script>
 
