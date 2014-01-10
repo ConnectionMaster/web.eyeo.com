@@ -4,7 +4,7 @@ As a DevOps engineer, you will help make Adblock Plus scale as it gains millions
 
 In addition, you will have the opportunity to help move our development infrastructure towards continuous integration, and generally more automation. You can also work upstream on related projects, like Puppet.
 
-Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
 **Requirements**
 

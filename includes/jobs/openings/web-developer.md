@@ -4,7 +4,7 @@ As a web developer, you would make Adblock Plus easier to use, more effective an
 
 What you work on is up to you, there is a lot to do and many ways you could contribute. You can also work upstream on related projects, like Firefox or Chromium.
 
-Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
 **Requirements**
 
