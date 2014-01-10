@@ -4,15 +4,17 @@ As an Android developer, you will help make Adblock Plus for Android as powerful
 
 We have more than one option, and we will build apps trying some others over time. You will also have the opportunity to work on any of our other projects, if you enjoy variety, and you can work upstream on related projects, like Android itself.
 
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+
 **Requirements**
 
 - Experience developing Android applications
 - Very good knowledge of how the web works
-- Very good communication skills
+- Very good communication skills in English
 - Ability to work and learn independently
 - High integrity
 - Experience with iOS development would be a plus
-- Experience with JavaScript and C++ would be a big plus
+- Experience with JavaScript or C++ would be a big plus
 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 

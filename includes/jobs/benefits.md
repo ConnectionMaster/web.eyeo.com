@@ -2,7 +2,7 @@ Benefits for employees:
 
 * Work on a product millions of people love
 * Immediate responsibility that takes years to get in the corporate world
-* Easygoing atmosphere, flat hierarchy, no dress code, ping pong
-* Work from home
+* Work where you want, we can help you relocate or pay for a co-working space
 * Free choice of hard- and software
+* Easygoing atmosphere, flat hierarchy, no dress code, ping pong
 * A “job ticket” that gives you a free ride on all regional transportation, also on weekends

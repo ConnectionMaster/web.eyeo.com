@@ -4,12 +4,14 @@ As a DevOps engineer, you will help make Adblock Plus scale as it gains millions
 
 In addition, you will have the opportunity to help move our development infrastructure towards continuous integration, and generally more automation. You can also work upstream on related projects, like Puppet.
 
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+
 **Requirements**
 
 - Strong experience with Linux server environments
 - Experience with configuration management, preferably Puppet
 - Very good knowledge of how the web works
-- Very good communication skills
+- Very good communication skills in English
 - Ability to work and learn independently
 - High integrity
 - Experience with Python would be a big plus

@@ -4,12 +4,14 @@ As a C++ developer, you will help make Adblock Plus for Internet Explorer as pow
 
 We will have more native projects over time, and you will have the opportunity to work on those, as well as any of our other projects if you enjoy variety. You can also work upstream on related projects, like Firefox, Chromium or V8.
 
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+
 **Requirements**
 
 - Experience developing modern C++ applications
 - Experience with systems programming on Windows or Linux
 - Good knowledge of how the web works
-- Very good communication skills
+- Very good communication skills in English
 - Ability to work and learn independently
 - High integrity
 - Experience with V8, JavaScript, Python, Android or iOS would be a plus

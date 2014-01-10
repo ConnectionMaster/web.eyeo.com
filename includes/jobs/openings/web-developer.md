@@ -4,14 +4,16 @@ As a web developer, you would make Adblock Plus easier to use, more effective an
 
 What you work on is up to you, there is a lot to do and many ways you could contribute. You can also work upstream on related projects, like Firefox or Chromium.
 
+Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll pay for a co-working space, or help you relocate.
+
 **Requirements**
 
 - Strong experience with web technologies, in particular JavaScript
 - Good knowledge of how the web works
-- Very good communication skills
+- Very good communication skills in English
 - Ability to work and learn independently
 - High integrity
-- Experience with Python would be a plus
+- Experience with browser extension development or Python would be a plus
 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 
