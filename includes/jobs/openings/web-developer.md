@@ -2,7 +2,7 @@ Literally everything we do is [open source](https://hg.adblockplus.org). Anyone 
 
 As a web developer, you would make Adblock Plus easier to use, more effective and more efficient. Or you could work on our websites, web applications or backend services.
 
-What you work on is up to you, there is a lot to do and many ways you could contribute. You can also work upstream on related projects, like Firefox or Chromium.
+What you work on is up to you, there is a lot to do and many ways you could contribute. You can also work upstream on related open source projects, like Firefox or Chromium.
 
 Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 

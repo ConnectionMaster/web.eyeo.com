@@ -2,7 +2,7 @@ Literally everything we do is [open source](https://hg.adblockplus.org). Anyone 
 
 As an Android developer, you will help make Adblock Plus for Android as powerful and easy to use as our browser extensions. That's challenging, and requires creativity and deep Android knowledge.
 
-We have more than one option, and we will build apps trying some others over time. You will also have the opportunity to work on any of our other projects, if you enjoy variety, and you can work upstream on related projects, like Android itself.
+We have more than one option, and we will build apps trying some others over time. You will also have the opportunity to work on any of our other projects, if you enjoy variety, and you can work upstream on related open source projects, like Android itself.
 
 Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 

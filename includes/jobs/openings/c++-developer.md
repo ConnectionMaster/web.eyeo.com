@@ -2,7 +2,7 @@ Literally everything we do is [open source](https://hg.adblockplus.org). Anyone 
 
 As a C++ developer, you will help make Adblock Plus for Internet Explorer as powerful and popular as our other browser extensions. Building Internet Explorer extensions is an act of systems programming, making it much more challenging.
 
-We will have more native projects over time, and you will have the opportunity to work on those, as well as any of our other projects if you enjoy variety. You can also work upstream on related projects, like Firefox, Chromium or V8.
+We will have more native projects over time, and you will have the opportunity to work on those, as well as any of our other projects if you enjoy variety. You can also work upstream on related open source projects, like Firefox, Chromium or V8.
 
 Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
