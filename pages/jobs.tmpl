@@ -16,7 +16,10 @@ title=Working at Eyeo
         {
           var hash = ui.newTab.find("a")[0].hash;
           if (hash != "#jobs-overview")
+          {
             location.hash = hash;
+            window.scrollTo(0, 0);
+          }
         }
       })
     ).addClass("ui-tabs-nav-vertical");
@@ -29,6 +32,8 @@ title=Working at Eyeo
       var escapedHash = hash.replace(/\+/g, "\\+");
       jQuery("[href=" + escapedHash + "]").click();
     });
+
+    setTimeout(function() { window.scrollTo(0, 0); }, 0);
   });
 </script>
 
