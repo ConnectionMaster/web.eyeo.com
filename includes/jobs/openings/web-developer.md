@@ -1,20 +1,19 @@
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
 
-As a C++ developer, you will help make Adblock Plus for Internet Explorer as powerful and popular as our other browser extensions. Building Internet Explorer extensions is an act of systems programming, making it much more challenging.
+As a web developer, you would make Adblock Plus easier to use, more effective and more efficient. Or you could work on our websites, web applications or backend services.
 
-We will have more native projects over time, and you will have the opportunity to work on those, as well as any of our other projects if you enjoy variety. You can also work upstream on related open source projects, like Firefox, Chromium or V8.
+What you work on is up to you, there is a lot to do and many ways you could contribute. You can also work upstream on related open source projects, like Firefox or Chromium.
 
 Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
 **Requirements**
 
-- Experience developing modern C++ applications
-- Experience with systems programming on Windows or Linux
+- Strong experience with web technologies, in particular JavaScript
 - Good knowledge of how the web works
 - Very good communication skills in English
 - Ability to work and learn independently
 - High integrity
-- Experience with V8, JavaScript, Python, Android or iOS would be a plus
+- Experience with browser extension development or Python would be a plus
 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 

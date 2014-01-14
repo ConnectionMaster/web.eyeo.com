@@ -1,6 +1,6 @@
 title=Working at Eyeo
 
-{% set openings = ("HR Manager", "C++ Developer", "Browser Extension Developer", "PR Intern") %}
+{% set openings = ("Web Developer", "C++ Developer", "Android Developer", "DevOps Engineer", "HR Manager", "PR Intern", "Business Development Manager") %}
 {% macro slugify(title) %}{{ title|lower|replace(" ", "-") }}{% endmacro %}
 
 <script src="/js/jquery.ui.core.min.js"></script>
@@ -10,10 +10,30 @@ title=Working at Eyeo
   jQuery(function()
   {
     jQuery(
-      "ul:first", jQuery("#tabs-openings").tabs()
+      "ul:first", jQuery("#tabs-openings").tabs(
+      {
+        activate: function(event, ui)
+        {
+          var hash = ui.newTab.find("a")[0].hash;
+          if (hash != "#jobs-overview")
+          {
+            location.hash = hash;
+            window.scrollTo(0, 0);
+          }
+        }
+      })
     ).addClass("ui-tabs-nav-vertical");
 
     jQuery("#tabs-details").tabs();
+
+    jQuery(window).on("hashchange", function()
+    {
+      var hash = location.hash != "" ? location.hash : "#jobs-overview";
+      var escapedHash = hash.replace(/\+/g, "\\+");
+      jQuery("[href=" + escapedHash + "]").click();
+    });
+
+    setTimeout(function() { window.scrollTo(0, 0); }, 0);
   });
 </script>
 
@@ -69,7 +89,7 @@ title=Working at Eyeo
           <div id="{{ slugify(title) }}">
             <h2>{{ title }}</h2>
             <? include jobs/openings/{{ slugify(title) }} ?>
-            <a href="mailto:info@adblockplus.org"><button>apply now</button></a>
+            <a href="mailto:jobs@eyeo.com"><button>apply now</button></a>
           </div>
         {% endfor %}
       </div>

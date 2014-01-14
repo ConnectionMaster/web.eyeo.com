@@ -2,8 +2,7 @@ Benefits for employees:
 
 * Work on a product millions of people love
 * Immediate responsibility that takes years to get in the corporate world
-* Easygoing atmosphere, flat hierarchy, no dress code, ping pong
-* Work from home
-* Upstream contributions to open source projects
+* Work where you want. We can help you relocate to Cologne, or pay for a coworking space
 * Free choice of hard- and software
+* Easygoing atmosphere, flat hierarchy, no dress code, ping pong
 * A “job ticket” that gives you a free ride on all regional transportation, also on weekends
