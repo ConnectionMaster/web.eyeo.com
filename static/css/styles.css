@@ -730,6 +730,18 @@ header > *, .content-block
   text-align: center;
 }
 
+.why-work-here-button
+{
+  background-color: #747474;
+}
+
+.why-work-here-button:hover,
+.why-work-here-button:focus
+{
+  background-color: #333;
+}
+
+
 @media (max-width: 750px)
 {
   .columns-container .column

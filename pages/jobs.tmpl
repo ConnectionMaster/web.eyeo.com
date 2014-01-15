@@ -16,10 +16,8 @@ title=Working at Eyeo
         {
           var hash = ui.newTab.find("a")[0].hash;
           if (hash != "#jobs-overview")
-          {
             location.hash = hash;
-            window.scrollTo(0, 0);
-          }
+          window.scrollTo(0, 0);
         }
       })
     ).addClass("ui-tabs-nav-vertical");
@@ -90,6 +88,7 @@ title=Working at Eyeo
             <h2>{{ title }}</h2>
             <? include jobs/openings/{{ slugify(title) }} ?>
             <a href="mailto:jobs@eyeo.com"><button>apply now</button></a>
+            <a href="#jobs-overview"><button class="why-work-here-button">why work here?</button></a>
           </div>
         {% endfor %}
       </div>
