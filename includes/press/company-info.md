@@ -1,4 +1,4 @@
-In January 2006 Wladimir Palant wrote Adblock Plus. Less than a year later Adblock Plus was the most downloaded Firefox add-on, a position it has retained ever since. In addition to Firefox, the extension is now available for Google Chrome, Opera, Internet Explorer and Android.
+In January 2006 Wladimir Palant wrote Adblock Plus. Less than a year later Adblock Plus was the most downloaded Firefox add-on, a position it has retained ever since. In addition to Firefox, the extension is now available for Google Chrome, Safari, Opera, Internet Explorer and Android.
 
 Meanwhile, Till Faida was studying international business and management in the Netherlands and Sweden. Intrigued by what Wladimir was doing with Adblock Plus, Till decided to make it the subject of his thesis. Wladimir and Till met one another through Tim Schumacher, founder of Sedo GmbH and an investor who had taken an interest in developing Adblock Plus with Wladimir. Eventually, with Tim on as an investor and adviser, Wladimir and Till decided to start Eyeo GmbH to be the business side of Adblock Plus.
 

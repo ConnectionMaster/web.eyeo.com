@@ -5,5 +5,5 @@
 * The German government’s Federal Office for Information Security [suggested Adblock Plus](https://www.bsi-fuer-buerger.de/BSIFB/DE/SicherheitImNetz/SozialeNetze/Basisschutz/SicherePC/sicherepc_node.html) as the best tool for keeping social networking sites from tracking individuals' web activities.
 * The independent French data privacy organization CNIL (Commission nationale de l'informatique et des libertés) [recommended Adblock Plus for getting rid of annoying ads.](http://www.cnil.fr/linstitution/actualite/article/article/recommandation-sur-les-cookies-quelles-obligations-pour-les-responsables-de-sites-quels-conseils/)
 * The EFF (Electronic Frontier Foundation) [advocated using Adblock Plus's anti-tracking solution](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online) to control online privacy.
-* Adblock Plus is available for the following browsers: Firefox, Google Chrome, Internet Exporer and Opera.
+* Adblock Plus is available for the following browsers: Firefox, Google Chrome, Safari, Opera and Internet Exporer.
 * Adblock Plus is available for the Android operating system.
