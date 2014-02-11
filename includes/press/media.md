@@ -22,17 +22,6 @@ For information about our trademarks, please see [this](https://adblockplus.org/
 * Use our logos with content that denigrates us or soils our reputation.
 * Use our logos in a way that is deceptive, offensive or objectionable to the average person.
 
-<script src="/js/jquery.lightbox.min.js"></script>
-<link rel="stylesheet" href="/css/jquery.lightbox.css" type="text/css" media="screen">
 <script>
-  jQuery(function()
-  {
-    jQuery("#media a").lightBox({
-      imageBtnPrev: "/images/lightbox/btn-prev.gif",
-      imageBtnNext: "/images/lightbox/btn-next.gif",
-      imageBtnClose: "/images/lightbox/btn-close.gif",
-      imageLoading: "/images/lightbox/ico-loading.gif",
-      imageBlank: "/images/lightbox/blank.gif"
-    });
-  });
+  jQuery("#media a").attr("download", "");
 </script>
