@@ -301,7 +301,7 @@ h6
   padding-left: 10px;
 }
 
-button, .menu-button
+button, .button, .menu-button
 {
   display: inline-block;
   cursor: pointer;
@@ -319,6 +319,8 @@ button, .menu-button
 
 button:hover,
 button:focus,
+.button:hover,
+.button:focus,
 .menu-button:hover,
 .menu-button:focus
 {
