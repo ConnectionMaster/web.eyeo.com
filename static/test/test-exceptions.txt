@@ -1,0 +1,4 @@
+[Adblock Plus 2.0]
+! Expires: 10 days
+*/px.gif?ch=2&rn=*
+*/px.js?ch=2
