@@ -383,9 +383,18 @@ button:focus,
   margin-bottom: 30px;
 }
 
-.profile-image
+.profile-image,
+.country-image
 {
   border-radius: 200px;
+}
+
+.country-image
+{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: 30px;
 }
 
 .profile h1
@@ -445,6 +454,7 @@ button:focus,
 
 .column > :first-child
 {
+  position: relative;
   margin-top: 0;
 }
 

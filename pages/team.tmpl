@@ -6,10 +6,11 @@ title=Meet the Team
 
 {%- from "includes/globals" import people %}
 
-{%- macro profile(date, image, name, title, description) %}
+{%- macro profile(date, country, image, name, title, description) %}
   <div class="profile column">
     <p>
       <img class="profile-image" src="/images/people/{{image}}" width="120" height="120" alt=""/>
+      <img class="country-image" src="/images/flags/{{country}}.png" width="30" height="30" alt=""/>
     </p>
     <h3 class="heading centered"><span>{{title}}</span></h3>
     <h1>{{name}}</h1>
@@ -27,3 +28,5 @@ title=Meet the Team
   {{profile(*person)}}
 {%- endfor %}
 </div>
+
+<!-- Flag icons: Copyright (c) 2013 Go Squared Ltd. http://www.gosquared.com/ -->
