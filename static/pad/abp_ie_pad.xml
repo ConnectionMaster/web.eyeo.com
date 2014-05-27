@@ -102,8 +102,8 @@ Feeling adventurous? Try out a development build to always get the latest featur
         <Application_URLs>
             <Application_Info_URL>http://adblockplus.org</Application_Info_URL>
             <Application_Order_URL></Application_Order_URL>
-            <Application_Screenshot_URL>http://eyeo.com/pad/pad_screenshot.jpg</Application_Screenshot_URL>
-            <Application_Icon_URL>http://eyeo.com/pad/adblockplus_64.png</Application_Icon_URL>
+            <Application_Screenshot_URL>http://eyeo.com/pad/abp_screenshot.jpg</Application_Screenshot_URL>
+            <Application_Icon_URL>http://eyeo.com/pad/abp_icon.png</Application_Icon_URL>
             <Application_XML_File_URL>http://eyeo.com/pad/abp_IE_pad.xml</Application_XML_File_URL>
         </Application_URLs>
         <Download_URLs>
