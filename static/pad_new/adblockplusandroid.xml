@@ -12,7 +12,6 @@
     <Company_Info>
         <Company_Name>Eyeo GmbH</Company_Name>
         <Address_1>Im Klapperhof 7-23</Address_1>
-        <Address_2></Address_2>
         <City_Town>Cologne</City_Town>
         <State_Province>NRW</State_Province>
         <Zip_Postal_Code>50670</Zip_Postal_Code>
@@ -48,7 +47,6 @@
         <Program_Install_Support>Install and Uninstall</Program_Install_Support>
         <Program_OS_Support>Android</Program_OS_Support>
         <Program_Language>Arabic,Chinese,Croatian,Czech,Dutch,English,French,German,Greek,Hebrew,Hungarian,Italian,Japanese,Korean,Lithuanian,Polish,Portuguese,Russian,Serbian,Slovak,Spanish,Swedish,Thai,Turkish,Ukrainian,Other</Program_Language>
-        <Program_Change_Info></Program_Change_Info>
         <Program_Specific_Category>Utilities</Program_Specific_Category>
         <Program_Category_Class>Security &amp; Privacy::Other</Program_Category_Class>
         <Program_System_Requirements>Android 2.1 or higher</Program_System_Requirements>
@@ -87,10 +85,10 @@ Adblock Plus is also available for Mozilla Firefox, Google Chrome, Opera, Safari
     <Web_Info>
         <Application_URLs>
             <Application_Info_URL>https://adblockplus.org</Application_Info_URL>
-            <Application_Screenshot_URL>https://eyeo.com/pad/pad_screenshot.jpg</Application_Screenshot_URL>
-            <Application_Icon_URL>https://eyeo.com/pad/adblockplus_64.png</Application_Icon_URL>
-			<Video_Link_1_URL>http://www.youtube.com/watch?v=pVYtzF5SemU</Video_Link_1_URL>
+            <Application_Screenshot_URL>https://eyeo.com/pad/abp_screenshot.jpg</Application_Screenshot_URL>
+            <Application_Icon_URL>https://eyeo.com/pad/abp_icon.png</Application_Icon_URL>
             <Application_XML_File_URL>https://adblockplus.org/pad/adblockplusandroid.xml</Application_XML_File_URL>
+            <Video_Link_1_URL>http://www.youtube.com/watch?v=pVYtzF5SemU</Video_Link_1_URL>
         </Application_URLs>
         <Download_URLs>
             <Primary_Download_URL>https://downloads.adblockplus.org/adblockplusandroid-1.2.1.apk</Primary_Download_URL>

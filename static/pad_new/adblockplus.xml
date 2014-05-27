@@ -12,7 +12,6 @@
     <Company_Info>
         <Company_Name>Eyeo GmbH</Company_Name>
         <Address_1>Im Klapperhof 7-23</Address_1>
-        <Address_2></Address_2>
         <City_Town>Cologne</City_Town>
         <State_Province>NRW</State_Province>
         <Zip_Postal_Code>50670</Zip_Postal_Code>
@@ -48,7 +47,6 @@
         <Program_Install_Support>Install and Uninstall</Program_Install_Support>
         <Program_OS_Support>Windows 8,Win7 x32,Win7 x64,WinVista,WinVista x64,WinXP,Mac OS X,Linux,Android</Program_OS_Support>
         <Program_Language>Albanian,Arabic,Armenian,Basque,Bulgarian,Catalan,ChineseSimplified,ChineseTraditional,Croatian,Czech,Danish,Dutch,English,Esperanto,Estonian,Finnish,French,Frisian,Galician,German,Greek,Hebrew,Hungarian,Icelandic,Indonesian,Italian,Japanese,Kazakh,Korean,Latvian,Lithuanian,Malay,Persian,Polish,Portuguese,Romanian,Russian,Serbian,Slovak,Slovenian,Spanish,Swedish,Thai,Turkish,Ukrainian,Vietnamese,Other</Program_Language>
-        <Program_Change_Info></Program_Change_Info>
         <Program_Specific_Category>Utilities</Program_Specific_Category>
         <Program_Category_Class>Security &amp; Privacy::Other</Program_Category_Class>
         <Program_System_Requirements>Mozilla Firefox 19 or higher</Program_System_Requirements>
@@ -76,11 +74,11 @@ Enjoy surfing the web without obtrusive ads cluttering your screen!
 
 Adblock Plus for Mozilla Firefox blocks:
 
-· Banners
-· YouTube video ads
-· Facebook advertisements
-· Pop-ups
-· All other obtrusive ads
+* Banners
+* YouTube video ads
+* Facebook advertisements
+* Pop-ups
+* All other obtrusive ads
 
 Adblock Plus is the world’s most popular browser extension, and is used by millions of users worldwide. It is a community-driven open source project, and hundreds of volunteers are contributing to the success of Adblock Plus to make sure that all annoying ads are automatically blocked.
 
@@ -102,10 +100,10 @@ Feeling adventurous? Try out a development build to always get the latest featur
     <Web_Info>
         <Application_URLs>
             <Application_Info_URL>https://adblockplus.org</Application_Info_URL>
-            <Application_Screenshot_URL>https://eyeo.com/pad/pad_screenshot.jpg</Application_Screenshot_URL>
-            <Application_Icon_URL>https://eyeo.com/pad/adblockplus_64.png</Application_Icon_URL>
-			<Video_Link_1_URL>http://www.youtube.com/watch?v=pVYtzF5SemU</Video_Link_1_URL>
+            <Application_Screenshot_URL>https://eyeo.com/pad/abp_screenshot.jpg</Application_Screenshot_URL>
+            <Application_Icon_URL>https://eyeo.com/pad/abp_icon.png</Application_Icon_URL>
             <Application_XML_File_URL>https://adblockplus.org/pad/adblockplus.xml</Application_XML_File_URL>
+            <Video_Link_1_URL>http://www.youtube.com/watch?v=pVYtzF5SemU</Video_Link_1_URL>
         </Application_URLs>
         <Download_URLs>
             <Primary_Download_URL>https://downloads.adblockplus.org/adblockplus-2.6.1.xpi</Primary_Download_URL>
