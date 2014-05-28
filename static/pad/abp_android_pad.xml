@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XML_DIZ_INFO>
     <MASTER_PAD_VERSION_INFO>
-        <MASTER_PAD_VERSION>3.10</MASTER_PAD_VERSION>
-        <MASTER_PAD_EDITOR>PAD Fab</MASTER_PAD_EDITOR>
+        <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+        <MASTER_PAD_EDITOR></MASTER_PAD_EDITOR>
         <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+        <CERTIFIED>N</CERTIFIED>
     </MASTER_PAD_VERSION_INFO>
+    <ASP>
+      <ASP_Member>N</ASP_Member>
+    </ASP>
     <Company_Info>
-        <Company_Name>Adblock Plus</Company_Name>
+        <Company_Name>Eyeo GmbH</Company_Name>
         <Address_1>Im Klapperhof 7-23</Address_1>
-        <Address_2></Address_2>
         <City_Town>Cologne</City_Town>
         <State_Province>NRW</State_Province>
         <Zip_Postal_Code>50670</Zip_Postal_Code>
         <Country>Germany</Country>
-        <Company_WebSite_URL>http://adblockplus.org</Company_WebSite_URL>
+        <Company_WebSite_URL>https://eyeo.com</Company_WebSite_URL>
         <Contact_Info>
             <Author_First_Name>Wladimir</Author_First_Name>
             <Author_Last_Name>Palant</Author_Last_Name>
@@ -34,41 +37,33 @@
     </Company_Info>
     <Program_Info>
         <Program_Name>Adblock Plus for Android</Program_Name>
-        <Program_Version>1.0.1</Program_Version>
-        <Program_Release_Month>11</Program_Release_Month>
-        <Program_Release_Day>27</Program_Release_Day>
-        <Program_Release_Year>2012</Program_Release_Year>
+        <Program_Version>1.2.1</Program_Version>
+        <Program_Release_Month>04</Program_Release_Month>
+        <Program_Release_Day>03</Program_Release_Day>
+        <Program_Release_Year>2014</Program_Release_Year>
+        <Program_Release_Status>Minor Update</Program_Release_Status>
         <Program_Cost_Dollars>0</Program_Cost_Dollars>
-        <Program_Cost_Other_Code></Program_Cost_Other_Code>
-        <Program_Cost_Other></Program_Cost_Other>
         <Program_Type>Freeware</Program_Type>
-        <Program_Release_Status>New Release</Program_Release_Status>
         <Program_Install_Support>Install and Uninstall</Program_Install_Support>
         <Program_OS_Support>Android</Program_OS_Support>
-        <Program_Language>Chinese,Dutch,English,French,German,Korean,Latvian,Russian,Spanish</Program_Language>
-        <Program_Change_Info>Free Adblocking for Android devices</Program_Change_Info>
+        <Program_Language>Arabic,Chinese,Croatian,Czech,Dutch,English,French,German,Greek,Hebrew,Hungarian,Italian,Japanese,Korean,Lithuanian,Polish,Portuguese,Russian,Serbian,Slovak,Spanish,Swedish,Thai,Turkish,Ukrainian,Other</Program_Language>
         <Program_Specific_Category>Utilities</Program_Specific_Category>
-        <Program_Category_Class>Security &amp; Privacy::Other</Program_Category_Class>
-        <Program_System_Requirements>Android 2.0</Program_System_Requirements>
+        <Program_System_Requirements>Android 2.1 or higher</Program_System_Requirements>
         <File_Info>
-            <File_Size_Bytes>69769</File_Size_Bytes>
-            <File_Size_K>68.13</File_Size_K>
-            <File_Size_MB>0.07</File_Size_MB>
+            <File_Size_Bytes>3380372</File_Size_Bytes>
+            <File_Size_K>3301.15</File_Size_K>
+            <File_Size_MB>3.23</File_Size_MB>
         </File_Info>
         <Expire_Info>
             <Has_Expire_Info>N</Has_Expire_Info>
-            <Expire_Count></Expire_Count>
-            <Expire_Based_On></Expire_Based_On>
-            <Expire_Other_Info></Expire_Other_Info>
-            <Expire_Month></Expire_Month>
-            <Expire_Day></Expire_Day>
-            <Expire_Year></Expire_Year>
         </Expire_Info>
+        <Program_Category_Class>Network &amp; Internet::Ad Blockers</Program_Category_Class>
+        <FacebookProductPage>https://www.facebook.com/adblockplus</FacebookProductPage>
+        <GooglePlusProductPage>https://plus.google.com/+AdblockPlus</GooglePlusProductPage>
     </Program_Info>
     <Program_Descriptions>
         <English>
-            <Keywords>adblock, android, adblocker, security, privacy</Keywords>
-            <Char_Desc_45>Adblock Plus blocks all annoying ads.</Char_Desc_45>
+            <Keywords>adblock, adblocker, security, privacy, Android</Keywords><Char_Desc_45>Adblock Plus blocks all annoying ads.</Char_Desc_45>
             <Char_Desc_80>Adblock Plus blocks all annoying ads on your Android device. NO ROOT REQUIRED!</Char_Desc_80>
             <Char_Desc_250>ABP blocks all advertising when browsing, and when using your favorite apps. It is free and makes your Android device much more enjoyable. Adblock Plus blocks: mobile ads, video ads, banners, push notifications, display ads, HTML5 ads, and more.</Char_Desc_250>
             <Char_Desc_450>Adblock Plus blocks all annoying ads on your Android device. NO ROOT REQUIRED! It blocks all online advertising when browsing, and when using your favorite apps like Angry Birds. It is 100% free and makes your Android device much more enjoyable. Adblock Plus blocks: mobile ads, video advertising, banners, push notifications, display advertising, HTML5 advertising, and much more.</Char_Desc_450>
@@ -83,26 +78,19 @@ Also, Android does not allow ads to be blocked on SSL encrypted websites.
 Annoyed by the icon? Please read this: https://adblockplus.org/en/android-faq#icon
 Adblock Plus is an open-source, community driven project. Many volunteers are contributing to the development and maintenance of Adblock Plus. Currently, there are over forty continuously updating filter lists in over a dozen different languages, ensuring that all obtrusive ads remain blocked.
 Please note that Adblock Plus will probably become the highest data-using application on your Android device. However, this is only because Adblock Plus needs to filter the data to ensure that the ads can be blocked. Adblock Plus is actually only using a fraction of the data shown on your device.
-Adblock Plus is also available for Mozilla Firefox, Google Chrome and Opera.</Char_Desc_2000>
+Adblock Plus is also available for Mozilla Firefox, Google Chrome, Opera, Safari and Internet Explorer.</Char_Desc_2000>
         </English>
     </Program_Descriptions>
     <Web_Info>
         <Application_URLs>
-            <Application_Info_URL>http://adblockplus.org</Application_Info_URL>
-            <Application_Order_URL></Application_Order_URL>
-            <Application_Screenshot_URL>http://eyeo.com/pad/abp_screenshot.jpg</Application_Screenshot_URL>
-            <Application_Icon_URL>http://eyeo.com/pad/abp_icon.png</Application_Icon_URL>
-            <Application_XML_File_URL>http://eyeo.com/pad/abp_android_pad.xml</Application_XML_File_URL>
+            <Application_Info_URL>https://adblockplus.org</Application_Info_URL>
+            <Application_Screenshot_URL>https://eyeo.com/pad/abp_screenshot.jpg</Application_Screenshot_URL>
+            <Application_Icon_URL>https://eyeo.com/pad/abp_icon.png</Application_Icon_URL>
+            <Video_Link_1_URL>http://www.youtube.com/watch?v=pVYtzF5SemU</Video_Link_1_URL>
+            <Application_XML_File_URL>https://eyeo.com/pad/abp_android_pad.xml</Application_XML_File_URL>
         </Application_URLs>
         <Download_URLs>
-            <Primary_Download_URL>https://downloads.adblockplus.org/adblockplusandroid-1.2.apk</Primary_Download_URL>
-            <Secondary_Download_URL>https://adblockplus.org/en/android</Secondary_Download_URL>
-            <Additional_Download_URL_1></Additional_Download_URL_1>
-            <Additional_Download_URL_2></Additional_Download_URL_2>
+            <Primary_Download_URL>https://downloads.adblockplus.org/adblockplusandroid-1.2.1.apk</Primary_Download_URL>
         </Download_URLs>
     </Web_Info>
-    <Permissions>
-        <Distribution_Permissions></Distribution_Permissions>
-        <EULA></EULA>
-    </Permissions>
 </XML_DIZ_INFO>
