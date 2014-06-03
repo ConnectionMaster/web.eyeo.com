@@ -37,9 +37,9 @@
     </Company_Info>
     <Program_Info>
         <Program_Name>Adblock Plus for Safari</Program_Name>
-        <Program_Version>1.8.2</Program_Version>
-        <Program_Release_Month>05</Program_Release_Month>
-        <Program_Release_Day>14</Program_Release_Day>
+        <Program_Version>1.8.3</Program_Version>
+        <Program_Release_Month>06</Program_Release_Month>
+        <Program_Release_Day>03</Program_Release_Day>
         <Program_Release_Year>2014</Program_Release_Year>
         <Program_Release_Status>New Release</Program_Release_Status>
         <Program_Cost_Dollars>0</Program_Cost_Dollars>
@@ -50,9 +50,9 @@
         <Program_Specific_Category>Utilities</Program_Specific_Category>
         <Program_System_Requirements>Safari 6 or higher</Program_System_Requirements>
         <File_Info>
-            <File_Size_Bytes>499277</File_Size_Bytes>
-            <File_Size_K>487.58</File_Size_K>
-            <File_Size_MB>0.48</File_Size_MB>
+            <File_Size_Bytes>505597</File_Size_Bytes>
+            <File_Size_K>493.75</File_Size_K>
+            <File_Size_MB>0.49</File_Size_MB>
         </File_Info>
         <Expire_Info>
             <Has_Expire_Info>N</Has_Expire_Info>
@@ -63,38 +63,31 @@
     </Program_Info>
     <Program_Descriptions>
         <English>
-            <Keywords>adblock, adblocker, security, privacy, Safari</Keywords>
+            <Keywords>adblock, adblocker, Adblock Plus, security, privacy, Safari, YouTube</Keywords>
             <Char_Desc_45>Blocks all annoying ads on the web.</Char_Desc_45>
-            <Char_Desc_80>Blocks all annoying ads on the web: YouTube ads, Facebook ads, banners and more.</Char_Desc_80>
-            <Char_Desc_250>Enjoy surfing the web without obtrusive ads cluttering your screen! Adblock Plus for Safari blocks: Banners, YouTube video ads, Facebook advertisements, Pop-ups, All other obtrusive ads.</Char_Desc_250>
-            <Char_Desc_450>Adblock Plus for Safari blocks: Banners, YouTube video ads, Facebook advertisements, Pop-ups, All other obtrusive ads. Adblock Plus is the world’s most popular browser extension, and is used by millions of users worldwide. It is a community-driven open source project, and hundreds of volunteers are contributing to the success of Adblock Plus to make sure that all annoying ads are automatically blocked.</Char_Desc_450>
-            <Char_Desc_2000>Adblock Plus blocks all annoying ads, and supports websites by not blocking unobtrusive ads by default (configurable).
+            <Char_Desc_80>Blocks all annoying ads online: also YouTube ads, pop-ups, banners, Facebook ads</Char_Desc_80>
+            <Char_Desc_250>Browse the Internet without annoying ads with the best adblocker for Safari! Adblock Plus for Safari blocks all YouTube ads, pop-ups, banners, Facebook and Twitter ads.</Char_Desc_250>
+            <Char_Desc_450>Adblock Plus for Safari automatically removes: YouTube ads, including the 30-second preroll ads, Facebook ads, Banners, Pop-ups, All other annoying ads.The most popular adblocker is highly customizable and includes an option to block tracking and malware. Unlike other adblocking solutions for Mac OS X, Adblock Plus for Safari blocks all Youtube ads. It is also the only adblocker for Safari that shows how many ads you block in each site.</Char_Desc_450>
+            <Char_Desc_2000>Browse the Internet without annoying ads with the best adblocker for Safari!
 
-Enjoy surfing the web without obtrusive ads cluttering your screen!
+Our Safari adblocker blocks all YouTube ads, pop-ups, banners and even the ads in your Facebook and Twitter feeds. Adblock Plus is the world's most popular browser extension, used by tens of millions of users all around the world.
 
-Adblock Plus for Safari blocks:
+Adblock Plus blocks all intrusive ads. Under default settings it supports websites and encourages better advertising by allowing non-annoying ads (configurable).
 
+Adblock Plus for Safari automatically removes:
+* YouTube ads, including the 30-second preroll ads
+* Facebook ads
 * Banners
-* YouTube video ads
-* Facebook advertisements
 * Pop-ups
-* All other obtrusive ads
+* All other annoying ads
 
-Adblock Plus is the world’s most popular browser extension, and is used by millions of users worldwide. It is a community-driven open source project, and hundreds of volunteers are contributing to the success of Adblock Plus to make sure that all annoying ads are automatically blocked.
+The most popular adblocker is highly customizable and includes an option to block tracking and malware. Unlike other adblocking solutions for Mac OS X, Adblock Plus for Safari is the only tool that blocks all YouTube ads. It is also the only adblocker for Safari that shows how many ads you block in each site.
 
-Please note: When installing Adblock Plus for Safari, your browser shows a warning that Adblock Plus has access to your browsing history and data. This is a standard message, we NEVER collect any information whatsoever!
+Adblock Plus is also available for Mozilla Firefox, Google Chrome, Opera, Internet Explorer and Android.
 
-Recently, the Adblock Plus community introduced the Acceptable Ads initiative. By allowing some small and static ads, you support websites that rely on advertising but choose to do it in a non-intrusive way. This feature can be disabled at any time. Go to https://adblockplus.org/en/acceptable-ads to find out more.
+By supporting our Acceptable Ads initiative, you allow ads through which meet our criteria. By doing so, you support websites that rely on advertising but choose to do it in a non-intrusive way. This feature can be disabled at any time. Go to http://adblockplus.org/en/acceptable-ads to find out more.
 
-***********
-Release announcements and changelogs can be found here: https://adblockplus.org/releases/
-
-Problems? Try restarting Safari and/or clicking "Update now" in the Adblock Plus Options.
-
-Found a bug or need help? Visit our forum: https://adblockplus.org/forum/viewforum.php?f=18
-
-*************
-Feeling adventurous? Try out a development build to always get the latest features of Adblock Plus: https://adblockplus.org/en/development-builds (updated separately, independent settings).</Char_Desc_2000>
+Download Adblock Plus for Safari for free and browse the Internet without annoying ads!</Char_Desc_2000>
         </English>
     </Program_Descriptions>
     <Web_Info>
@@ -106,7 +99,7 @@ Feeling adventurous? Try out a development build to always get the latest featur
             <Application_XML_File_URL>https://eyeo.com/pad/abp_safari_pad.xml</Application_XML_File_URL>
         </Application_URLs>
         <Download_URLs>
-            <Primary_Download_URL>https://downloads.adblockplus.org/adblockplussafari-1.8.2.safariextz</Primary_Download_URL>
+            <Primary_Download_URL>https://downloads.adblockplus.org/adblockplussafari-1.8.3.safariextz</Primary_Download_URL>
         </Download_URLs>
     </Web_Info>
 </XML_DIZ_INFO>
