@@ -1,7 +1,7 @@
 Eyeo GmbH is the company behind the world’s most popular open source browser extension, Adblock Plus. Our extension has been downloaded over 300 million times, and is used by more than 60 million people. With this huge user base, we want and are able to revolutionize the Internet for the better. We strongly believe that online advertising should not be obtrusive, and should never negatively influence the browsing experience of the user. Because of our solutions, around 60 million people are not exposed to any annoying advertising.
 To complement our team we are looking for a dedicated
 
-**Growth Hacker/Data Analyst**
+**Growth Hacker / Data Analyst**
 
 with a passion for analytics and data; an obsessive focus on customer acquisition and satisfaction; a keen sense for trends and causalities; an understanding of coding; and the will to dig deeply into our data. 
 
