@@ -1,6 +1,20 @@
 title=Working at Eyeo
 
-{% set openings = ("Growth Hacker / Data Analyst","Web Developer", "C++ Developer", "Android Developer", "DevOps Engineer", "PR Intern", "Business Development Manager", "Online Marketing Intern", "Graphic Designer") %}
+{#
+  For each job opening you have to list the title and the name of the file under
+  includes/jobs/openings that contains the job description.
+#}
+{% set openings = [
+  ("Growth Hacker / Data Analyst", "growth-hacker-data-analyst"),
+  ("Web Developer", "web-developer"),
+  ("C++ Developer", "c++-developer"),
+  ("Android Developer", "android-developer"),
+  ("DevOps Engineer", "devops-engineer"),
+  ("PR Intern", "pr-intern"),
+  ("Business Development Manager", "business-development-manager"),
+  ("Online Marketing Intern", "online-marketing-intern"),
+  ("Graphic Designer", "graphic-designer"),
+] %}
 
 <script src="/js/jquery.ui.core.min.js"></script>
 <script src="/js/jquery.ui.widget.min.js"></script>
@@ -46,7 +60,7 @@ title=Working at Eyeo
 
       <ul>
         <li id="jobs-overview-tab"><a href="#jobs-overview"></a></li>
-        {% for title in openings %}
+        {% for title, file in openings %}
           <li><a href="#{{ title|slugify }}">{{ title }}</a></li>
         {% endfor %}
       </ul>
@@ -83,10 +97,10 @@ title=Working at Eyeo
           </div>
         </div>
 
-        {% for title in openings %}
+        {% for title, file in openings %}
           <div id="{{ title|slugify }}">
             <h2>{{ title }}</h2>
-            <? include jobs/openings/{{ title|slugify }} ?>
+            <? include jobs/openings/{{ file }} ?>
             <a href="mailto:jobs@eyeo.com"><button>apply now</button></a>
             <a href="#jobs-overview"><button class="why-work-here-button">why work here?</button></a>
           </div>
