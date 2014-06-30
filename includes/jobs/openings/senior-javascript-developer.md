@@ -7,6 +7,7 @@ We have a particularly high interest in people who can work on the core code tha
 Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
 **Requirements**
+
 - Strong experience with JavaScript, beyond frameworks like jQuery
 - Solid understanding of algorithms and data structures
 - Very good knowledge of how the web works
