@@ -2,7 +2,7 @@ Literally everything we do is [open source](https://hg.adblockplus.org). Anyone 
 
 We're looking for someone who can help bring Adblock Plus to mobile devices and other resource constrained environments.
 
-You will help maintain and improve libadblockplus, our cross-platform library that brings ad blocking to native applications, and develop applications based on it. You can also work upstream on related open source projects, like Firefox, Chromium or V8.
+You will help maintain and improve [libadblockplus](https://hg.adblockplus.org/libadblockplus), our cross-platform library that brings ad blocking to native applications, and develop applications based on it. You can also work upstream on related open source projects, like Firefox, Chromium or V8.
 
 Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
