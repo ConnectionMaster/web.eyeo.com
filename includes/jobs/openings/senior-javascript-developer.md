@@ -4,7 +4,7 @@ We are looking for a senior developer with a solid understanding of computer sci
 
 We have a particularly high interest in people who can work on the core code that powers Adblock Plus on all platforms. But you can also work on other parts of our stack, or upstream on related open source projects like Firefox or Chromium.
 
-Almost all developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
+Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
 
 **Requirements**
 
