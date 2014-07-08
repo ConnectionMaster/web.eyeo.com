@@ -14,6 +14,7 @@ title=Working at Eyeo
   ("Online Marketing Intern", "online-marketing-intern"),
   ("Graphic Designer", "graphic-designer"),
 ] %}
+{% set german_openings = [] %}
 
 <script src="/js/jquery.ui.core.min.js"></script>
 <script src="/js/jquery.ui.widget.min.js"></script>
@@ -60,7 +61,14 @@ title=Working at Eyeo
       <ul>
         <li id="jobs-overview-tab"><a href="#jobs-overview"></a></li>
         {% for title, file in openings %}
-          <li><a href="#{{ title|slugify }}">{{ title }}</a></li>
+          <li>
+            <a href="#{{ title|slugify }}">
+              {{ title }}
+              {% if file in german_openings %}
+                <img src="/images/flags/de.png" alt="German" width="15" height="10">
+              {% endif %}
+            </a>
+          </li>
         {% endfor %}
       </ul>
 
