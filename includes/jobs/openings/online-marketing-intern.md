@@ -10,7 +10,6 @@ You will be responsible for designing an online marketing campaign for markets w
 
 **Requirements**
 
-* Preferred start: June-August 2014
 * Affinity with online advertising and web technologies
 * Have a start-up and hands-on mentality
 * Knowledge of online marketing: SEO, SEM, display advertising, etc.
