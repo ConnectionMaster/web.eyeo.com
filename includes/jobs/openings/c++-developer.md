@@ -1,6 +1,6 @@
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
 
-We're looking for someone who can help bring Adblock Plus to mobile devices and other resource constrained environments.
+We're looking for someone who can help bring Adblock Plus to mobile devices and other resource constrained environments. With platforms like Android and iOS being rather restrictive, you'll have to dig deep into the OS and find creative solutions.
 
 You will help maintain and improve [libadblockplus](https://hg.adblockplus.org/libadblockplus), our cross-platform library that brings ad blocking to native applications, and develop applications based on it. You can also work upstream on related open source projects, like Firefox, Chromium or V8.
 
