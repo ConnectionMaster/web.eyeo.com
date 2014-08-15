@@ -15,10 +15,9 @@ To that end, once you’ve gained a basic understanding of how the the extension
 
 **Requirements**
 
-* Preferred start: January 2014
 * Minimum length: 5 months
 * German native speaker
-* Professional proficiency in English
+* Professional proficiency in english, spanish skills are a big plus
 * Background in PR, communication, writing, etc.
 * Knowledge of French, Polish, Italian or Russian is preferred
 * Affinity with online marketing and web technologies
