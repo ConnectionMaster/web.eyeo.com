@@ -20,7 +20,7 @@ with a passion for web technology; an obsessive focus on partner satisfaction; a
 - You also are fluent in German and English, verbally and written 
 - Experience with ad-servers is a big plus
 - You are able to juggle multiple tasks and have fun in a fast-paced, startup environment
-- Your  proactive, self-motivated  and service-oriented work manner is is your key success factor for getting things done independently
+- Your proactive, self-motivated and service-oriented work manner is your key success factor for getting things done independently
 
 
 **What you can expect**
