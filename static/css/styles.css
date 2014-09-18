@@ -515,7 +515,6 @@ button:focus,
 .ui-tabs-nav li
 {
   background-color: #FBFBFB;
-  white-space: nowrap;
   padding: 0;
   background-image: none;
   list-style: none;
