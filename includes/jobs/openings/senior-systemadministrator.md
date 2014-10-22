@@ -5,7 +5,7 @@ Als Teil unseres stetig wachsenden Teams treiben Sie federführend den Aufbau un
 - Fachliche Leitung des wachsenden Office-Infrastruktur-Teams
 - Einführung und Optimierung von Office-Infrastruktur-Prozessen
 - Technischer Support der Mitarbeiter
-- Unterstützung des internationalen Teams in allen Bereichen der Netzwerkund Systemadministration
+- Unterstützung des internationalen Teams in allen Bereichen der Netzwerk und Systemadministration
 
 **Was wir erwarten**
 
