@@ -9,6 +9,7 @@ Many of us work remotely, so can you. If you'd prefer an office environment, we'
 **Requirements**
 
 - Experience as a technical writer
+- Experience editing texts
 - Excellent English language skills (ILR level 5)
 - Good communication skills
 - Ability to work and learn independently
@@ -16,3 +17,5 @@ Many of us work remotely, so can you. If you'd prefer an office environment, we'
 - Experience with translations would be a big plus
 - Knowledge of languages other than English would be a plus
 - Understanding of the software and web development process would be a plus
+
+When applying, please include some texts you've written.
