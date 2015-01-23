@@ -8,15 +8,15 @@ And if you feel like it, you can work on any of our other projects, or upstream 
 
 **Requirements**
 
-- Strong experience with JavaScript, beyond frameworks like jQuery
 - Strong experience with modern HTML and CSS
-- Solid understanding of how the web works
+- Experience with Python
+- Experience with JavaScript, beyond frameworks like jQuery
 - Experience with building and maintaining high traffic websites
 - Experience with search engine optimization
+- Solid understanding of how the web works
 - Excellent communication skills in English
 - Ability to work and learn independently
 - High integrity
-- Experience with Python would be a plus
 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 
