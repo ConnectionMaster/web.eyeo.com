@@ -1,7 +1,5 @@
-# web.eyeo.com
+# eyeo.com web content
 
-## Intro
-
-Source repository for [the company website](http://eyeo.com/). For more
-information and usage instructions see [README.md in the web.adblockplus.org
-repo](https://github.com/adblockplus/web.adblockplus.org/blob/master/README.md).
+The web content of the eyeo.com domain is generated automatically from the files
+in this repository. For more information and usage instructions see
+[CMS documentation](https://github.com/adblockplus/cms/blob/master/README.md#content-structure).
