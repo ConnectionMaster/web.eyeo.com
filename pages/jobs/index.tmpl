@@ -1,0 +1,41 @@
+title=Working at Eyeo
+
+<head>
+  <script src="/js/jquery.ui.core.min.js"></script>
+  <script src="/js/jquery.ui.widget.min.js"></script>
+  <script src="/js/jquery.ui.tabs.min.js"></script>
+  <script>
+    jQuery(function()
+    {
+      jQuery("#tabs-details").tabs();
+    });
+  </script>
+</head>
+
+<? include jobs/header ?>
+
+<div id="jobs-overview">
+  <? include jobs/overview ?>
+
+  <div id="tabs-details">
+    <ul>
+      <li><a href="#why">Why work with us?</a></li>
+      <li><a href="#benefits">Employee benefits</a></li>
+      <li><a href="#office">Our office</a></li>
+    </ul>
+
+    <div id="why">
+      <? include jobs/why ?>
+    </div>
+
+    <div id="benefits">
+      <? include jobs/benefits ?>
+    </div>
+
+    <div id="office">
+      <? include jobs/office ?>
+    </div>
+  </div>
+</div>
+
+<? include jobs/footer ?>

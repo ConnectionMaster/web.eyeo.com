@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 **Account Manager USA/GB (native speaker only)**
 
 **Your daily business**
@@ -16,3 +18,5 @@
 - Good technical understanding of online advertising
 - Deep knowledge of different monetization methods for online content
 - Self-motivated and able to work unsupervised, and an ability to multitask and ‘wear multiple hats’
+
+<? include jobs/footer ?>

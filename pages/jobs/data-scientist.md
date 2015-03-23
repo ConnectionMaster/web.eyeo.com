@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 You will help us to gain insights about our product from various data sources, and to implement data-gathering processes in a professional manner.
  
 **Your daily business**
@@ -17,3 +19,5 @@ You will help us to gain insights about our product from various data sources, a
 - Solid experience in a scripting language (Python, R, Bash, etc)
 - Fluent in English (German helpful but not required)
 - Proactive, self-motivated, get things done and can work independently
+
+<? include jobs/footer ?>

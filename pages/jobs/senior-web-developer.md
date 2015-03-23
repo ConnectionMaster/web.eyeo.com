@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
 
 We're looking for a senior web developer who can take charge of our websites, such as [adblockplus.org](https://adblockplus.org) and [acceptableads.org](https://acceptableads.org).
@@ -21,3 +23,5 @@ And if you feel like it, you can work on any of our other projects, or upstream 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 
 When applying, please include a code sample or, preferably, references to open source projects you worked on.
+
+<? include jobs/footer ?>

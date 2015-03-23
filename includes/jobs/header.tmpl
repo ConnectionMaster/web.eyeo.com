@@ -1,0 +1,57 @@
+{#
+  For each job opening you have to list the title and the name of the file under
+  pages/jobs that contains the job description.
+#}
+{% set openings = [
+  ("Account Manager USA/GB", "account-manager-usa-gb"),
+  ("Senior JavaScript Developer", "senior-javascript-developer"),
+  ("Senior Web Developer", "senior-web-developer"),
+  ("Android Developer", "android-developer"),
+  ("PR Intern", "pr-intern"),
+  ("Business Development Manager", "business-development-manager"),
+  ("Student Help Communications", "student-help-communications"),
+  ("Data Scientist", "data-scientist"),
+  ("Software Tester", "software-tester"),
+] %}
+{% set german_openings = [] %}
+
+{% set opening = openings|find(page.split("/")[-1], attribute=1) %}
+{% set title, _ = opening or (title, "") %}
+
+<header class="page-title">
+  <h1>Working at Eyeo</h1>
+</header>
+
+<div id="jobs-info" class="content-block">
+  <div id="tabs-openings" class="columns-container one-sidebar">
+    <div class="column sidebar-left">
+      <h3 class="heading centered"><span>Current openings:</span></h3>
+
+      <ul class="ui-tabs-nav ui-tabs-nav-vertical">
+        {% for title, file in openings %}
+          <li {% if file == page.split("/")[-1] %} class="ui-tabs-active" {% endif %}>
+            {{("jobs/" + file)|linkify(class="ui-tabs-anchor")}}
+              {{ title }}
+              {% if file in german_openings %}
+                <img src="/images/flags/de.png" alt="German" width="15" height="10">
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p id="hiring-badges">
+        <img id="ihk-logo" src="/images/ihk.png" alt="IHK Ausbildungsbetrieb" width="120" height="80">
+        <img id="fair-company-logo" src="/images/fair-company.jpg" alt="Fair Company" height="80">
+      </p>
+
+      <p>
+        <? include jobs/contact ?>
+      </p>
+    </div>
+
+    <div class="column">
+      <div id="panels-openings" class="ui-tabs-panel">
+        {% if opening %}
+        <h2>{{ title }}</h2>
+        {% endif %}

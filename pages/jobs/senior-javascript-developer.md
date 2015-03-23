@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
 
 We are looking for a senior developer with a solid understanding of computer science and a focus on web technologies, in particular JavaScript.
@@ -20,3 +22,5 @@ Most of our developers work remotely, so can you. If you'd prefer an office envi
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
 
 When applying, please include a code sample or, preferably, references to open source projects you worked on.
+
+<? include jobs/footer ?>

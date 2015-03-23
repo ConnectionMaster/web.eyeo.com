@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 Adblock Plus is covered by publications across the world. Your job will be divided into two basic designations: covering that coverage and cultivating press relations. Between these two essential poles of your job lies a veritable ocean of possibility. Most of the specific tasks therein are elaborated below, but a good deal of what you do and how much responsibility you get will be based upon how engaged you are in the topic.
 
 To that end, once you’ve gained a basic understanding of how the the extension works, you will work to develop creative solutions to better understand how Adblock Plus and Eyeo are being covered and to generate additional coverage. You will work in all facets of the small team in Cologne, but will collaborate most closely with the PR Manager.
@@ -25,3 +27,5 @@ To that end, once you’ve gained a basic understanding of how the the extension
 * Knowledge of online marketing, online advertising, browsers and extensions
 * Applicants with prior knowledge or experience with browsers and browse extensions/add-ons are preferred
 * Candidates with above-average ping pong skills are preferred (we play for 20 minutes every day and are always looking for new competitors)
+
+<? include jobs/footer ?>

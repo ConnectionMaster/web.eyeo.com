@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 **Your daily business**
 
 - Perform own exploratory testing against products to gain familiarity with the products and their similarities and differences
@@ -13,3 +15,5 @@
 - Very good communication skills in English
 - Extensive experience with software testing
 - Having worked with test automation would be a huge plus, especially not only at website-testing but with native Windows and mobile apps
+
+<? include jobs/footer ?>

@@ -1,3 +1,5 @@
+<? include jobs/header ?>
+
 The Business Development Manager at Eyeo GmbH has the challenging task of identifying, creating, and executing strategic partnership opportunities in order to generate revenue and increase the distribution of our software products. This position requires a highly persuasive person with the ability to overcome barriers and objections to close a deal. Ideally you have both a business and a technical background. 
 
 The candidate must have a strong understanding of the security software and browser market (both web and mobile) and provide experience in relationship building, contract negotiations, technology selling and project management. This position requires frequent travel to visit partners and conferences. You will:
@@ -17,3 +19,5 @@ The candidate must have a strong understanding of the security software and brow
 - Fluent in English, additional languages are a big plus
 
 The position is based in Cologne, Germany, but might be fulfilled remotely.
+
+<? include jobs/footer ?>
