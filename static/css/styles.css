@@ -340,6 +340,13 @@ button:focus,
 .sidebar-left .contact-person
 {
   text-align: right;
+  margin-top: 20px;
+  float: right;
+}
+
+.sidebar-left .contact-person:first-child
+{
+  margin-top: 0;
 }
 
 .sidebar-left .contact-person img
@@ -795,7 +802,7 @@ header > *, .content-block
     text-align: inherit;
   }
 
-  #hiring-badges
+  .no-mobile
   {
     display: none;
   }
