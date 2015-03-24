@@ -337,6 +337,16 @@ button:focus,
   margin-bottom: 40px;
 }
 
+.sidebar-left .contact-person
+{
+  text-align: right;
+}
+
+.sidebar-left .contact-person img
+{
+  border-radius: 3px;
+}
+
 /*
  * Page-specific styles
  */
@@ -418,16 +428,6 @@ button:focus,
   margin-bottom: 1em;
 }
 
-#press-info .sidebar-left
-{
-  text-align: right;
-}
-
-#press-info .sidebar-left img
-{
-  border-radius: 3px;
-}
-
 /*
  * Multi-column layouts
  */
@@ -452,6 +452,7 @@ button:focus,
   margin-left: 2.5%;
 }
 
+.sidebar-left .contact-person > :first-child,
 .column > :first-child
 {
   position: relative;
