@@ -8,7 +8,7 @@ And we don’t want to stop at Adblock Plus and better advertising! We have a to
 
 We’re well aware that we threaten long-established paradigms by asking if the behemoth of online advertising can change its ways. You’ll fit in here if you’re not easily intimidated and you believe that the Internet is not a static, but rather a developing space made for and in the hands of its users (who aren’t mere “consumers”).
 
-![Office fun](/images/office-fun.png)
+<img src="/images/office-fun.png" alt="Office fun" width="100%">
 
 **We don’t get bored in Cologne but you don’t have to live here to work here**
 
