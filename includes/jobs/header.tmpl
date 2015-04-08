@@ -12,8 +12,9 @@
   ("Student Help Communications", "student-help-communications"),
   ("Data Scientist", "data-scientist"),
   ("Software Tester", "software-tester"),
+  ("Office Assistant", "office-assistant"),
 ] %}
-{% set german_openings = [] %}
+{% set german_openings = ["office-assistant"] %}
 
 {% set opening = openings|find(page.split("/")[-1], attribute=1) %}
 {% set title, _ = opening or (title, "") %}
