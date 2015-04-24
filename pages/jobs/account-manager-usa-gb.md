@@ -1,10 +1,10 @@
 <? include jobs/header ?>
 
-**Account Manager USA/GB (native speaker only)**
+**Account Manager - International**
 
 **Your daily business**
 
-- Business development related to Acceptable Ads partnerships in all english speaking markets
+- Business development related to Acceptable Ads partnerships in all international markets
 - Identify and develop B2B customer relations as well as maintaining and developing existing Acceptable Ads partnerships
 - Negotiate and draft business agreements
 - Manage the execution of partnership agreements in close cooperation with the partner and our team of software developers
@@ -12,7 +12,7 @@
 
 **What we are expecting**
 
-- English native speaker
+- Business fluent English, other language skills are a big plus
 - At least 3 years’ experience in a business related to Online Advertising, Content Monetization or Content Production
 - Excellent communication and presentation skills and ability to negotiate on a professional level
 - Good technical understanding of online advertising
