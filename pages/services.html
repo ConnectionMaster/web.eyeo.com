@@ -1,0 +1,46 @@
+title=Services
+
+<script src="/js/jquery.ui.core.min.js"></script>
+<script src="/js/jquery.ui.widget.min.js"></script>
+<script src="/js/jquery.ui.tabs.min.js"></script>
+<script>
+  jQuery(function()
+  {
+    jQuery("#tabs").tabs();
+  });
+</script>
+
+<header class="page-title">
+  <h1>Services</h1>
+</header>
+
+<div class="content-block">
+  <div class="column">
+    <? include services/overview ?>
+
+    <div id="tabs">
+      <ul>
+        <li><a href="#publisher">Publisher</a></li>
+        <li><a href="#ad-network">Ad Network</a></li>
+        <li><a href="#advertiser">Advertiser</a></li>
+        <li><a href="#ad-tech">Ad Tech</a></li>
+      </ul>
+
+      <div id="publisher">
+        <? include services/publisher ?>
+      </div>
+
+      <div id="ad-network">
+        <? include services/ad-network ?>
+      </div>
+
+      <div id="advertiser">
+        <? include services/advertiser ?>
+      </div>
+
+      <div id="ad-tech">
+        <? include services/ad-tech ?>
+      </div>
+    </div>
+  </div>
+</div>

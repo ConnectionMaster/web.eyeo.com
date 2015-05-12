@@ -39,7 +39,7 @@
         <a href="{{source.resolve_link("jobs", locale)[1]}}" hreflang="{{source.resolve_link("jobs", locale)[0]}}" class="menu-button">Join us - we are hiring!</a>
 
         <ul class="menu-list">
-          {%- for link, title in [("index", "About Us"), ("team", "Team"), ("press", "Press"), ("contact", "Contact Us")] %}
+          {%- for link, title in [("index", "About Us"), ("services", "Services"), ("team", "Team"), ("press", "Press"), ("contact", "Contact Us")] %}
             {%- if link == page %}
               <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">{{link|linkify}}<span>{{title}}</span></a></li>
             {%- else %}
