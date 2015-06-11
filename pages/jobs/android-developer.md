@@ -2,25 +2,31 @@
 
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
 
-As an Android developer, you will help make Adblock Plus for Android as powerful and easy to use as our browser extensions. That's challenging, and requires creativity.
+As an Android developer, you will help make our Android projects as powerful and popular as our desktop browser extensions. You will work on Adblock Browser as well Adblock Plus for Android.
+You will also have the opportunity to work on any of our other projects, and you can work upstream on related open source projects like AOSP or Firefox for Android.
 
-You will also have the opportunity to work on any of our other projects, and you can work upstream on related open source projects, like AOSP.
+**When applying, include relevant code samples, preferably as open source projects on GitHub, Bitbucket, Google Code, SourceForge or similar sites.**
+Keep in mind that your application won’t be considered if you fail to submit relevant code samples.
 
-Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space.
+**What we are expecting**
 
-**Requirements**
+**Must-haves**
 
-- Experience developing Android applications
-- Experience with C++
-- Very good knowledge of how the web works
-- Very good communication skills in English
+- In-depth experience with Android development
+- Very good knowledge of Java (and its limitations on embedded devices)
+- Excellent English communication skills
+- Good knowledge of C++
+- Experience with JavaScript
 - Ability to work and learn independently
-- High integrity
-- Experience with JavaScript would be a big plus
-- Experience with iOS development would be a plus
+
+**Nice-to-have**
+
+- Experience with JNI
+- Experience with other mobile platforms like iOS or Windows Phone
+- Knowledge of how the web works on the lower levels
+- Experience with Linux
+- Experience with Python
 
 Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
-
-When applying, please include a code sample or, preferably, references to open source projects you worked on.
 
 <? include jobs/footer ?>
