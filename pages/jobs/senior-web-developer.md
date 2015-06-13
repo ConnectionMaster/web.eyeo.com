@@ -20,8 +20,6 @@ And if you feel like it, you can work on any of our other projects, or upstream 
 - Ability to work and learn independently
 - High integrity
 
-Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
-
 When applying, please include a code sample or, preferably, references to open source projects you worked on.
 
 <? include jobs/footer ?>

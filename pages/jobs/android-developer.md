@@ -27,6 +27,4 @@ Keep in mind that your application won’t be considered if you fail to submit r
 - Experience with Linux
 - Experience with Python
 
-Not sure if this is for you? Consider [contributing](https://adblockplus.org/en/contribute-code) first.
-
 <? include jobs/footer ?>
