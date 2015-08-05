@@ -15,12 +15,12 @@ Keep in mind that your application won’t be considered if you fail to submit r
 - In-depth experience with Android development
 - Very good knowledge of Java (and its limitations on embedded devices)
 - Excellent English communication skills
-- Good knowledge of C++
-- Experience with JavaScript
 - Ability to work and learn independently
 
 **Nice-to-have**
 
+- Good knowledge of C++
+- Experience with JavaScript
 - Experience with JNI
 - Experience with other mobile platforms like iOS or Windows Phone
 - Knowledge of how the web works on the lower levels
