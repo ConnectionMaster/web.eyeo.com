@@ -13,12 +13,12 @@ And if you feel like it, you can work on any of our other projects, or upstream 
 - Strong experience with JavaScript, beyond frameworks like jQuery
 - Strong experience with modern HTML and CSS
 - Experience with building and maintaining high traffic websites
-- Experience with search engine optimization would be a plus
 - Solid understanding of how the web works
 - Excellent communication skills in English
 - Ability to work and learn independently
 - High integrity
 - Experience with Python would be a plus
+- Experience with search engine optimization would be a plus
 
 When applying, please include a code sample or, preferably, references to open source projects you worked on.
 
