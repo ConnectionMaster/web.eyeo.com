@@ -1,6 +1,6 @@
 <? include jobs/header ?>
 
-Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living.
+Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living. Eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
 
 We're looking for an experienced web developer who can take charge of our websites, such as [adblockplus.org](https://adblockplus.org) and [acceptableads.org](https://acceptableads.org).
 
