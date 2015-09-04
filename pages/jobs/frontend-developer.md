@@ -10,8 +10,9 @@ Most of our developers work remotely, so can you. If you'd prefer an office envi
 
 **Requirements**
 
-- Strong experience with JavaScript, beyond frameworks like jQuery
+- Strong experience with JavaScript
 - Strong experience with modern HTML and CSS
+- Knowledge of the DOM and modern browser APIs
 - Experience with building and maintaining high traffic websites
 - Solid understanding of how the web works
 - Excellent communication skills in English

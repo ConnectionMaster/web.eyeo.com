@@ -16,7 +16,7 @@ Keep in mind that your application won’t be considered if you fail to submit r
 
 - In-depth experience with Android development
 - Very good knowledge of Java (and its limitations on embedded devices)
-- Excellent English communication skills
+- Good communication skills in English
 - Ability to work and learn independently
 
 **Nice-to-have**
