@@ -4,9 +4,9 @@ Literally everything we do is [open source](https://hg.adblockplus.org). Anyone 
 
 We're looking for an experienced frontend developer who can take charge of our websites, such as [adblockplus.org](https://adblockplus.org) and [acceptableads.org](https://acceptableads.org).
 
-You would work with our developers and user experience designers to make our websites easier to use, easier to change and more efficient. You would work with our growth and communications team to build websites that promote Adblock Plus in creative, non-intrusive ways.
+You would work with our developers and user experience designers to make our websites easier to use, easier to change and more efficient. You would work with our growth and communications team to build websites that promote Adblock Plus in creative, non-intrusive ways. And if you feel like it, you can work on any of our other projects, or upstream on related open source projects.
 
-And if you feel like it, you can work on any of our other projects, or upstream on related open source projects.
+Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space in your vicinity.
 
 **Requirements**
 
