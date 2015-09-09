@@ -1,6 +1,12 @@
-      	{% if opening %}
-	        <a href="mailto:jobs@eyeo.com"><button>apply now</button></a>
-	        {{"jobs"|linkify}}<button class="why-work-here-button">why work here?</button></a>
+        {% if opening %}
+          <a href="
+            {%- if opening[2] -%}
+              https://app.talentstracker.com/job_applications/new?position_id={{ opening[2] }}
+            {%- else -%}
+              mailto:jobs@eyeo.com
+            {%- endif -%}
+          "><button>apply now</button></a>
+          {{ "jobs"|linkify }}<button class="why-work-here-button">why work here?</button></a>
         {% endif %}
       </div>
     </div>

@@ -3,21 +3,21 @@
   pages/jobs that contains the job description.
 #}
 {% set openings = [
-  ("Frontend Developer", "frontend-developer"),
-  ("Android Developer", "android-developer"),
-  ("JavaScript Developer", "javascript-developer"),
-  ("Python Developer", "python-developer"),
-  ("Technical Recruiter", "technical-recruiter"),
-  ("Technical Account Manager", "technical-account-manager"),
-  ("Manager Kommunikation & Social Media DACH (m/w)", "manager-kommunikation-social-media-dach"),
-  ("Community Support Associate", "community-support-associate"),
-  ("Community Manager/First-level User Support", "community-manager"),
-  ("Speculative Application", "speculative-application")
+  ("Frontend Developer", "frontend-developer", none),
+  ("Android Developer", "android-developer", none),
+  ("JavaScript Developer", "javascript-developer", 53),
+  ("Python Developer", "python-developer", 52),
+  ("Technical Recruiter", "technical-recruiter", 44),
+  ("Technical Account Manager", "technical-account-manager", 34),
+  ("Manager Kommunikation & Social Media DACH (m/w)", "manager-kommunikation-social-media-dach", 55),
+  ("Community Support Associate", "community-support-associate", none),
+  ("Community Manager/First-level User Support", "community-manager", 18),
+  ("Speculative Application", "speculative-application", 51),
 ] %}
 {% set german_openings = ["manager-kommunikation-social-media-dach"] %}
 
 {% set opening = openings|find(page.split("/")[-1], attribute=1) %}
-{% set title, _ = opening or (title, "") %}
+{% set title = (opening or [title])[0] %}
 
 <header class="page-title">
   <h1>Working at Eyeo</h1>
@@ -29,7 +29,7 @@
       <h3 class="heading centered"><span>Current openings:</span></h3>
 
       <ul class="ui-tabs-nav ui-tabs-nav-vertical">
-        {% for title, file in openings %}
+        {% for title, file, _ in openings %}
           <li {% if file == page.split("/")[-1] %} class="ui-tabs-active" {% endif %}>
             {{("jobs/" + file)|linkify(class="ui-tabs-anchor")}}
               {{ title }}
