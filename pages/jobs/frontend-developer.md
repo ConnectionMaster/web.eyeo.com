@@ -2,7 +2,7 @@
 
 Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living. Eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
 
-We're looking for an experienced frontend developer who can take charge of our websites, such as [adblockplus.org](https://adblockplus.org) and [acceptableads.org](https://acceptableads.org).
+We're looking for an experienced frontend developer who can take charge of our websites, such as [adblockplus.org](https://adblockplus.org), [acceptableads.org](https://acceptableads.org), [adblockbrowser.org](https://adblockbrowser.org) or [eyeo.com](https://eyeo.com).
 
 You would work with our developers and user experience designers to make our websites easier to use, easier to change and more efficient. You would work with our growth and communications team to build websites that promote Adblock Plus in creative, non-intrusive ways. And if you feel like it, you can work on any of our other projects, or upstream on related open source projects.
 
