@@ -8,7 +8,7 @@ title=Position is not available
 
 ## The position you are looking for is no longer available
 
-... but don't be sad. We are always looking for talant.
+... but don't be sad. We are always looking for talent.
 Feel free to send us a [speculative application](jobs/speculative-application).
 
 <? include jobs/footer ?>
