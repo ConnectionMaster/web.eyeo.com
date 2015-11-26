@@ -1,6 +1,6 @@
 <? include jobs/header ?>
 
-We are looking for a dedicated **Technical Recruiter (in part-time)** to join our team and help us grow. Are you passionate about recruiting? Can you communicate that enthusiasm to our candidates? Do you enjoy working in a multi-cultural environment? Then we are looking for you.
+We are looking for a dedicated **Technical Recruiter (in full-time or part-time)** to join our team and help us grow. Are you passionate about recruiting? Can you communicate that enthusiasm to our candidates? Do you enjoy working in a multi-cultural environment? Then we are looking for you.
 
 **Your daily business**
 
