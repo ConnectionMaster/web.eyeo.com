@@ -18,7 +18,7 @@
   <script src="/js/jquery.js"></script>
   <script src="/js/scripts.js"></script>
 
-  <link rel="canonical" href="https://eyeo.com/{{page|stripindex}}">
+  <link rel="canonical" href="https://eyeo.com/{{ page[:-5] if page.endswith('index') else page }}">
 
   {% block head %}
   {{head|safe}}
