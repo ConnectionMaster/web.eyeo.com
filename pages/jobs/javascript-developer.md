@@ -6,7 +6,7 @@ We are looking for an experienced developer with a solid understanding of comput
 
 You would work on our core ad blocking code, ensuring that ads are blocked as effectively and efficiently as possible. You would also work on the Adblock Plus browser extensions for Firefox, Chromium and Safari, which bring this code to millions of users. In addition, you could contribute to any area of our code base you're interested in, or to related open source projects such as Chromium or Firefox.
 
-Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space in your vicinity.
+Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne or Berlin, or pay for a coworking space in your vicinity.
 
 **What we are expecting**
 

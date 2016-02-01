@@ -12,7 +12,7 @@ Do you want to make the Internet a better place for everyone? Then you should ke
 - Have heated debates about new ideas
 - Flexible workplace and hours
 - All tech roles can be performed remotely
-- We offer relocation assistance if you’d like to move near our office in Cologne, Germany 
+- We offer relocation assistance if you’d like to move near our offices in Cologne or Berlin, Germany
 - Choose your own hard- and software
 
 **What we are expecting**

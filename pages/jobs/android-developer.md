@@ -6,7 +6,7 @@ As an Android developer, you will work on Adblock Browser and its underlying tec
 
 You will also have the opportunity to work on any of our other projects, and you can work upstream on related open source projects like AOSP or Firefox for Android.
 
-Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne, or pay for a coworking space in your vicinity.
+Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne or Berlin, or pay for a coworking space in your vicinity.
 
 **When applying, include relevant code samples, preferably as open source projects on GitHub, Bitbucket, Google Code, SourceForge or similar sites.**
 Keep in mind that your application won’t be considered if you fail to submit relevant code samples.
