@@ -19,7 +19,7 @@ title=Meet the Team
 {% endmacro %}
 
 <div class="content-block columns-container four-columns">
-{%- for person in people|datesort(basedate="2011-02-22") %}
+{%- for person in people|teamsort(basedate="2011-02-22") %}
   {%- if loop.index % 4 == 1 and not loop.first %}
     </div>
     <div class="content-block columns-container four-columns">

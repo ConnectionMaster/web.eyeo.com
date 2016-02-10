@@ -1,24 +1,24 @@
 {% set releases = [
-  ("September 30, 2015", "en", "First Free Ad Blocker on the Apple App Store Arrives; The Adblock Autumn:  Adblock Plus for iOS 2-nd from ABP this Month", "2015-09-30-ABP_for_iOSApp-WEB.pdf"),
-  ("September 29, 2015", "en", "Adblock Plus To Invite An Independent Board to Manage 'Acceptable Ads' Program", "2015-09-29-AA_independent_board-WEB.pdf"),
-  ("September 15, 2015", "en", "Sweet 4­‐Peat for Users: Adblock Plus Victorious In Court Against Axel Springer", "2015-09-15-Cologne-lawsuitWIN-WEB.pdf"),
-  ("September 08, 2015", "en", "Adblock Plus beats Apple to the punch; Ships Adblock Browser ahead of iOS 9", "2015-09-08-AdblockBrowserforiOSLaunch(POST)-WEB.pdf"),
-  ("September 08, 2015", "en", "Adblock Plus Escapes Exile; Returns to Google Play Store", "2015-09-08-Adblock BrowserforAndroid(POST)-WEB.pdf"),
-  ("July 08, 2015", "en", "University Tests Adblock Plus on Enterprise Network; Finds 40% Traffic Reduction", "2015-07-08-ABP-SFUStudyWEB.pdf"),
-  ("May 19, 2015", "en", "Adblock Plus Builds First Mobile Browser From the Ground Up; Leaves Ad Industry With Nowhere to Hide", "2015-05-19-AdblockBrowserAndroidBeta-WEB.pdf"),
-  ("January 27, 2015", "en", "Adblock Plus for Internet Explorer Officially Out of Beta", "2015-01-27-Maxthon-US-WEB.pdf"),
-  ("April 04, 2014", "en", "Research Study Finds 'Loud' Website Ads Do Not Work", "2014-04-29-Eyetracking-WEB.pdf"),
-  ("October 10, 2013", "en", "Adblock Plus Available for Safari; Mac Owners Rejoice", "2013-10-10-29-ABP-on-Safari-WEB.pdf"),
-  ("September 30, 2015", "de", "Unabhängiges Gremium entscheidet bald über 'Acceptable Ads' bei Adblock Plus", "2015-09-30-AAIndependentBoard_DE.pdf"),
-  ("September 29, 2015", "de", "4:0 für das Selbstbestimmungsrecht des Nutzers! Adblock Plus gewinnt Klage gegen Axel Springer vor Kölner Landgericht", "2015-09-29-CologneLawsuit-DE.pdf"),
-  ("September 10, 2015", "de", "Adblock Browser aus dem Exil entlassen - endlich zurück im Google Play Store!", "2015-09-10-Adblock_Browser_für_Android-DE.pdf"),
-  ("September 08, 2015", "de", "Adblock Plus schneller dran als Apple - Adblock Browser kommt noch vor iOS 9!", "2015-09-08-Adblock_Browser_für_iOS_Launch-DE.pdf"),
-  ("September 08, 2015", "de", "Adblock Browser aus dem Exil entlassen - endlich zurück im Google Play Store!", "2015-09-08-Adblock_Browser_für_Android-DE.pdf"),
-  ("July 03, 2015", "de", "Universität testet Adblock Plus auf Unternehmensnetzwerk und reduziert den Datenverbrauch damit um 40%", "2015-07-03-SFU_Press_Release-DE.pdf"),
-  ("May 19, 2015", "de", "Werbeblocker 'Adblock Plus' launcht eigenen Android-Browser", "2015-05-19-AdblockBrowserpressrelease-DE.pdf"),
-  ("February 02, 2015", "de", "Maxthon und AdblockPlus schließen strategische Partnerschaft zum Launch des ersten Browsers, der Werbung standardmäßig blockiert", "2015-02-09-MaxthonPressRelease-DE.pdf"),
-  ("April 04, 2014", "de", "Erstaunliche neue Studie zur Werbewirkung: Dezente Anzeigen funktionieren besser", "2014-04-29-Eyetrackingtranslatedplusblog.pdf"),
-  ("June 06, 2013", "de", "Neue Studie zu Werbung im Netz: Kinder von Online­Anzeigen oftmals überfordert", "2013-06-20_KinderOnline-Werbung-DE.pdf"),
+  ["2015-09-30", "en", "First Free Ad Blocker on the Apple App Store Arrives; The Adblock Autumn:  Adblock Plus for iOS 2-nd from ABP this Month", "2015-09-30-ABP_for_iOSApp-WEB.pdf"],
+  ["2015-09-29", "en", "Adblock Plus To Invite An Independent Board to Manage 'Acceptable Ads' Program", "2015-09-29-AA_independent_board-WEB.pdf"],
+  ["2015-09-15", "en", "Sweet 4­‐Peat for Users: Adblock Plus Victorious In Court Against Axel Springer", "2015-09-15-Cologne-lawsuitWIN-WEB.pdf"],
+  ["2015-09-08", "en", "Adblock Plus beats Apple to the punch; Ships Adblock Browser ahead of iOS 9", "2015-09-08-AdblockBrowserforiOSLaunch(POST)-WEB.pdf"],
+  ["2015-09-08", "en", "Adblock Plus Escapes Exile; Returns to Google Play Store", "2015-09-08-Adblock BrowserforAndroid(POST)-WEB.pdf"],
+  ["2015-07-08", "en", "University Tests Adblock Plus on Enterprise Network; Finds 40% Traffic Reduction", "2015-07-08-ABP-SFUStudyWEB.pdf"],
+  ["2015-05-19", "en", "Adblock Plus Builds First Mobile Browser From the Ground Up; Leaves Ad Industry With Nowhere to Hide", "2015-05-19-AdblockBrowserAndroidBeta-WEB.pdf"],
+  ["2015-01-27", "en", "Adblock Plus for Internet Explorer Officially Out of Beta", "2015-01-27-Maxthon-US-WEB.pdf"],
+  ["2014-04-04", "en", "Research Study Finds 'Loud' Website Ads Do Not Work", "2014-04-29-Eyetracking-WEB.pdf"],
+  ["2013-10-10", "en", "Adblock Plus Available for Safari; Mac Owners Rejoice", "2013-10-10-29-ABP-on-Safari-WEB.pdf"],
+  ["2015-09-30", "de", "Unabhängiges Gremium entscheidet bald über 'Acceptable Ads' bei Adblock Plus", "2015-09-30-AAIndependentBoard_DE.pdf"],
+  ["2015-09-29", "de", "4:0 für das Selbstbestimmungsrecht des Nutzers! Adblock Plus gewinnt Klage gegen Axel Springer vor Kölner Landgericht", "2015-09-29-CologneLawsuit-DE.pdf"],
+  ["2015-09-10", "de", "Adblock Browser aus dem Exil entlassen - endlich zurück im Google Play Store!", "2015-09-10-Adblock_Browser_fur_Android-DE.pdf"],
+  ["2015-09-08", "de", "Adblock Plus schneller dran als Apple - Adblock Browser kommt noch vor iOS 9!", "2015-09-08-Adblock_Browser_fur_iOS_Launch-DE.pdf"],
+  ["2015-09-08", "de", "Adblock Browser aus dem Exil entlassen - endlich zurück im Google Play Store!", "2015-09-08-Adblock_Browser_fur_Android-DE.pdf"],
+  ["2015-07-03", "de", "Universität testet Adblock Plus auf Unternehmensnetzwerk und reduziert den Datenverbrauch damit um 40%", "2015-07-03-SFU_Press_Release-DE.pdf"],
+  ["2015-05-19", "de", "Werbeblocker 'Adblock Plus' launcht eigenen Android-Browser", "2015-05-19-AdblockBrowserpressrelease-DE.pdf"],
+  ["2015-02-02", "de", "Maxthon und AdblockPlus schließen strategische Partnerschaft zum Launch des ersten Browsers, der Werbung standardmäßig blockiert", "2015-02-09-MaxthonPressRelease-DE.pdf"],
+  ["2014-04-04", "de", "Erstaunliche neue Studie zur Werbewirkung: Dezente Anzeigen funktionieren besser", "2014-04-29-Eyetrackingtranslatedplusblog.pdf"],
+  ["2013-06-06", "de", "Neue Studie zu Werbung im Netz: Kinder von Online­Anzeigen oftmals überfordert", "2013-06-20_KinderOnline-Werbung-DE.pdf"]
 ] %}
 
 {% set languages = [
@@ -35,10 +35,10 @@
 {% for code, language in languages %}
   <h3 id="releases-{{code}}">{{language}}</h3>
   <ul>
-    {% for date, lang, title, file in releases %}
+    {% for date, lang, title, file in releases|datesort %}
       {% if lang == code %}
         <li>
-          <div>{{date}}</div>
+          <div>{{date|humanize_date}}</div>
           <a href="/press/releases/{{code}}/{{file}}">{{title}}</a>
         </li>
       {% endif %}
