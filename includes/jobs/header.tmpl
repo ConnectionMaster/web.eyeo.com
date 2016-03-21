@@ -8,12 +8,11 @@
   ("JavaScript Developer", "javascript-developer", 53),
   ("Technical Recruiter", "technical-recruiter", 44),
   ("Technical Account Manager", "technical-account-manager", 34),
-  ("Manager Kommunikation & Social Media DACH (m/w)", "manager-kommunikation-social-media-dach", 55),
+  ("Whitelist Maintainer", "whitelist-maintainer", 108),
   ("Community Support Associate", "community-support-associate", 75),
   ("Software Tester", "software-tester", 73),
   ("Speculative Application", "speculative-application", 51),
 ] %}
-{% set german_openings = ["manager-kommunikation-social-media-dach"] %}
 
 {% set opening = openings|find(page.split("/")[-1], attribute=1) %}
 {% set title = (opening or [title])[0] %}
