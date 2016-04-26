@@ -5,4 +5,5 @@ Im Klapperhof 7-23<br>
 50670 Cologne<br>
 Germany
 
-<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x47bf2507e18c753d%3A0x7448bb1d5c22d219!2sIm+Klapperhof+7!5e0!3m2!1sen!2sde!4v1385848925001" width="600" height="450"></iframe>
+<!-- Image source: https://maps.googleapis.com/maps/api/staticmap?size=245x200&zoom=15&markers=color:blue%7CIm+Klapperhof+7,+50670+Cologne,+Germany -->
+[![Cologne map with office location](/images/map-cologne-office.png)](https://www.google.com/maps/place/Im+Klapperhof+7,+50670+Cologne,+Germany/)
