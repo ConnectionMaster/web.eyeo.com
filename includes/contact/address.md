@@ -1,4 +1,4 @@
-### <span>Mailing address:</span> ###{.heading}
+### <span>Mailing address:</span> ### {.heading}
 
 Eyeo GmbH<br>
 Im Klapperhof 7-23<br>

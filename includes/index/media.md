@@ -1,4 +1,4 @@
-<span>Media coverage:</span>{.heading .centered}
+<span>Media coverage:</span> {.heading .centered}
 ================================================
 
 [![wired](/images/coverage/wired.png)](http://www.wired.co.uk/news/archive/2012-10/27/adblock-plus)
