@@ -16,7 +16,7 @@ As part of our international team you will meet the standard of true customer ca
 - We want people who are as excited about helping others as they are about our product and our mission for creating a better web for everyone
 - You have good knowledge of client-side web technologies including HTML5, CSS, different frameworks and basic knowledge in JavaScript
 - You are fluent in “Tech” and “Business” and able to translate between both 
-- You also are fluent in German and English, verbally and written 
+- You also are fluent in English, verbally and written 
 - Experience with ad-servers is a big plus
 - You are able to juggle multiple tasks and have fun in a fast-paced, startup environment
 - Your  proactive, self-motivated  and service-oriented work manner is is your key success factor for getting things done independently
