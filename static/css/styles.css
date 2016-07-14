@@ -101,83 +101,79 @@ h6
 
 #header
 {
-  display: block;
-  position: absolute;
-  background-color: #ffffff;
-  width: 100%;
-  top: 0;
-  left: 0;
-  box-shadow: 0 0 12px rgba(0,0,0, 0.09);
-  z-index: 10000;
-}
-
-#header.fixed
-{
   position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 12px rgba(0,0,0, 0.09);
+  z-index: 10000;
+  text-align: right;
 }
 
-#header-content
+#header .content-block
 {
-  display: table;
-  width: 100%;
+  position: relative;
+  padding: 15px 10px;
+  min-height: 32px;
+}
+
+#header.top .content-block
+{
+  padding: 25px 10px;
 }
 
 #logo
 {
-  display: table-cell;
-  padding: 13px 0;
+  position: absolute;
+  top: 7px;
+  left: 10px;
 }
 
-#header.fixed #logo
+#header.top #logo
 {
-  padding: 5px 0;
+  top: 17px;
+}
+
+#header .menu-button
+{
+  margin: 0px 0px 0px 25px;
 }
 
 #menu
 {
-  display: table-cell;
+  display: inline;
   vertical-align: middle;
-  width: 100%;
 }
 
 .assistive-text
 {
-  position: absolute;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
 
 .menu-list
 {
+  display: inline;
+  margin: 0px;
+  font-size: 15px;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  min-height: 36px;
-  font-size: 14px;
-  float: right;
 }
 
 .menu-list li
 {
-  position: relative;
-  white-space: nowrap;
-  display: block;
-  font-size: 15px;
+  display: inline;
   font-weight: bold;
-  line-height: 36px;
-  outline-width: 0;
-  float: left;
-  margin-right: 1px;
+  white-space: nowrap;
 }
 
 .menu-list li a
 {
   color: #979797;
   padding: 0 10px;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .menu-list li:hover > a,
@@ -186,16 +182,35 @@ h6
   color: #373737;
 }
 
-.menu-button
+#header-hamburger
 {
-  float: right;
-  margin-left: 25px;
+  display: none;
+}
+
+#header-hamburger:hover .icon-bar,
+#header-hamburger:focus .icon-bar,
+#header-hamburger:active .icon-bar
+{
+  background-color: #000;
+}
+
+
+.icon-bar
+{
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #888;
+}
+
+.icon-bar+.icon-bar
+{
+  margin-top: 4px;
 }
 
 #content:before,
 #content:after,
-#header:before,
-#header:after,
 .columns-container:before,
 .columns-container:after
 {
@@ -204,7 +219,6 @@ h6
 }
 
 #content:after,
-#header:after,
 .columns-container:after
 {
   clear: both;
@@ -785,29 +799,87 @@ header > *, .content-block
 }
 
 
-@media (max-width: 750px)
+@media (max-width: 768px)
 {
+  body
+  {
+    padding-top: 50px;
+  }
+
+  #header .content-block,
+  #header.top .content-block
+  {
+    padding: 9px 10px;
+  }
+
+  #header.top #logo
+  {
+    top: 7px;
+  }
+
+  #logo > img
+  {
+    height: 34px;
+  }
+
+  #menu
+  {
+    display: none;
+  }
+
+  #menu.open
+  {
+    display: block;
+  }
+
+  #header-hamburger
+  {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    display: block;
+    padding: 0px;
+    margin: 0px 5px;
+    background: none;
+  }
+
+  .menu-list
+  {
+    margin-top: 45px;
+    padding: 0px;
+    display: block;
+  }
+
+  .menu-list > li
+  {
+    display: block;
+    border-top: 1px solid #eee;
+  }
+
+  .menu-list > li > a
+  {
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    font-size: 14px
+  }
+
+  .menu-button
+  {
+    position: absolute;
+    top: 9px;
+    right: 50px;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+    font-size: 14px;
+  }
+
   .columns-container .column
   {
     width: 100%;
     margin-left: 0;
     clear: both;
-  }
-
-  #logo
-  {
-    padding: 5px 0;
-  }
-
-  #menu .menu-list
-  {
-    clear: both;
-    margin-left: -150px;
-  }
-
-  #menu .menu-button
-  {
-    margin-top: 5px;
   }
 
   #press-info .sidebar-left

@@ -15,6 +15,11 @@
 
   <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all">
 
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+  <![endif]-->
+
   <script src="/js/jquery.js"></script>
   <script src="/js/scripts.js"></script>
 
@@ -27,27 +32,48 @@
 
 <body id="top" class="home page page-template-default apollo_validation_on cover wpb-js-composer js-comp-ver-3.6.14.1 vc_responsive">
 
-  <header id="header">
+  <header id="header" class="top">
     <div class="content-block">
-      <a id="logo" href="{{source.resolve_link("index", locale)[1]}}" hreflang="{{source.resolve_link("index", locale)[0]}}" title="Eyeo GmbH" rel="home"><img src="/images/tog_logo.png" alt="Eyeo GmbH" /></a>
 
-      <nav id="menu" role="navigation">
-        <h3 class="assistive-text">Main menu</h3>
-        <a class="assistive-text" href="#begin-of-content">Skip to primary content</a>
-        <a class="assistive-text" href="#secondary">Skip to secondary content</a>
+      {{"jobs"|linkify(id="logo",title="Eyeo GmbH",rel="home")}}
+        <img src="/images/logo.png" srcset="/images/logo.png 1x, /images/logo-2x.png
+      2x" height="51px" alt="Eyeo GmbH" />
+      </a>
 
-        <a href="{{source.resolve_link("jobs", locale)[1]}}" hreflang="{{source.resolve_link("jobs", locale)[0]}}" class="menu-button">Join us - we are hiring!</a>
+      <a class="assistive-text" href="#content">
+        Skip to main content
+      </a>
 
+      <button id="header-hamburger" aria-expanded="false">
+        <span class="assistive-text">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <nav id="menu" role="navigation" aria-labelledby="header-hamburger" aria-expanded="false">
+        <h1 class="assistive-text">Main menu</h1>
         <ul class="menu-list">
           {%- for link, title in [("index", "About Us"), ("services", "Services"), ("team", "Team"), ("press", "Press"), ("contact", "Contact Us")] %}
             {%- if link == page %}
-              <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item">{{link|linkify}}<span>{{title}}</span></a></li>
+              <li class="current-menu-item">
+                {{link|linkify}}
+                  <span>{{title}}</span>
+                </a>
+              </li>
             {%- else %}
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">{{link|linkify}}<span>{{title}}</span></a></li>
+              <li>
+                {{link|linkify}}
+                  <span>{{title}}</span>
+                </a>
+              </li>
             {%- endif %}
           {%- endfor %}
         </ul>
       </nav>
+
+      {{"jobs"|linkify(class="menu-button")}}Join us - we are hiring!</a>
+
     </div>
   </header>
 
@@ -65,7 +91,6 @@
         Adblock Plus™ and Acceptable Ads™ are registered trademarks of Eyeo GmbH.
       </div>
 
-      <a href="#top" id="to-top" style="opacity: 0;"></a>
     </div>
   </footer>
 </body>

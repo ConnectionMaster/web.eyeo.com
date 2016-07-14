@@ -1,39 +1,48 @@
-jQuery(function()
-{
-  var toTop = jQuery("#to-top");
-  toTop.click(function ()
+(function(){
+  function addListener(target, event, callback)
   {
-    jQuery("body,html").animate({
-        scrollTop: 0
-    }, 800);
-    return false;
-  });
-});
-
-jQuery(window).scroll(function()
-{
-  var scrollTop = jQuery(window).scrollTop();
-
-  // Fix header
-  var header = jQuery("#header");
-  var height = header.height();
-  var fixed = (scrollTop > height);
-  if (fixed != header.hasClass("fixed"))
-  {
-    if (fixed)
-    {
-      header.css("top", -height);
-      header.animate({top: 0},function()
-      {
-          header.css("top", "");
-      });
-      header.addClass("fixed");
-    }
+    if (target.addEventListener)
+      return target.addEventListener(event, callback, false);
     else
-      header.removeClass("fixed");
+      return target.attachEvent("on" + event, callback);
   }
 
-  // Display "to top" button
-  var toTop = jQuery("#to-top");
-  toTop.css("opacity", scrollTop > 100 ? 1 : 0)
-});
+  function onLoad(callback)
+  {
+    if (document.addEventListener)
+      return addListener(document, "DOMContentLoaded", callback);
+    else
+      return addListener(window, "load", callback);
+  }
+
+  onLoad(function()
+  {
+    // expand & contract fixed header
+    var header = document.getElementById("header");
+    var headerPadding = 13;
+    addListener(window, "scroll", function()
+    {
+      var scrollY = window.scrollY || document.documentElement.scrollTop;
+      if (scrollY < headerPadding)
+        header.className = "top";
+      else
+        header.className = "";
+    });
+    // open & close header menu (on small screens)
+    var menu = document.getElementById("menu");
+    var menuButton = document.getElementById("header-hamburger");
+    addListener(menuButton, "click", function()
+    {
+      if (menu.className === "open")
+      {
+        menu.className = "";
+        menu.setAttribute("aria-expanded", false);
+      }
+      else
+      {
+        menu.className = "open";
+        menu.setAttribute("aria-expanded", true);
+      }
+    });
+  });
+}());
