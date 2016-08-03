@@ -4,6 +4,7 @@
 
 ### <span>Contact details:</span> ### {.heading}
 
+General: [info@eyeo.com](mailto:info@eyeo.com)<br>
 Job applications: [jobs@eyeo.com](mailto:jobs@eyeo.com)<br>
 PR: [press@eyeo.com](mailto:press@eyeo.com)<br>
 Phone: +49 (0) 221 / 65028 598<br>
