@@ -10,10 +10,10 @@ We’re well aware that we threaten long-established paradigms by asking if the 
 
 <img src="/images/office-fun.png" alt="Office fun" width="100%">
 
-**We don’t get bored in Cologne but you don’t have to live here to work here**
+**We don’t get bored here at Eyeo, but you don’t have to live here to work here**
 
-The English writer Samuel Johnson once said that “when a man is tired of London, he is tired of life.” We’d say the same about Cologne. But none of us are from here: in all, our <? include size-of-team ?> people represent 8 countries, and we haven’t yet found a way to get bored — at work or after.
+The English writer Samuel Johnson once said that, “When a man is tired of London, he is tired of life.” We’d say the same about Cologne and Berlin. Not all of us are from here; in all, our <? include size-of-team ?> people represent 24 countries, and we haven’t yet found a way to get bored — at work or after.
 
 That being said, about half of us work from home — no matter where that home may be. We’re happy to let you work from wherever you’re most comfortable.
 
-When we work, here in Cologne or remotely, everyone has an equal spot at the table, where new ideas and comments are always welcome, and roles evolve beyond the restrictive, unimaginative “titles.” The hierarchy is flat and the politics get left at door. And when we’re not working, we play some fiercely competitive ping pong, we grill, drink beer, bowl and, as of recently, race go-carts.
+When we work, in Cologne, in Berlin or remotely, everyone has an equal spot at the table. New ideas and comments are always welcome, and roles evolve beyond restrictive, unimaginative “titles.” The hierarchy is flat and the politics get left at door. When we’re not working, we play some fiercely competitive ping pong, we grill, drink beer, bowl and, as of recently, race go-carts.
