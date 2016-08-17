@@ -1,7 +1,6 @@
-Our office is part of the [Clusterhaus](http://clusterhaus.de), a 6,000-plus square meter hub that over 65 startups call home. Clusterhaus is centrally located in the Friesenviertel section of Cologne, walking distance from the main train station and offering quick access to all the go-to spots downtown. Happy hour anyone?
+Our Cologne office is part of the [Leitrad Lofts](http://www.leitrad.koeln/lage/), a brand new building that we and other startups call home. We created our office rooms with our own ideas and love spending time on our terrace enjoying a BBQ or cooking in our huge kitchen. The Leitrad Lofts are located in Cologne-Ehrenfeld, a district that was once connected to production and manufacturing and is today a place of refined services, as well as a major center for innovative and creative companies. Being near the motorway, three lines of public transportation and the city train offers quick access to all the go-to spots downtown. Happy hour anyone?
 
 [![Our view](/images/office/Cologne_1_150.png)](/images/office/Cologne_1_big.png)
-[![Inside the office](/images/office/office_150.png)](/images/office/office_big.jpg)
 [![Our neighborhood](/images/office/christmas_150.png)](/images/office/christmas_big.png)
 [![After hours](/images/office/dinner_150.png)](/images/office/dinner_big.png)
 {#office-gallery}
