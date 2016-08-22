@@ -230,7 +230,6 @@ h6
   background-color: #252525;
   padding-top: 30px;
   padding-bottom: 50px;
-  font-size: 12px;
 }
 
 #footer a
@@ -243,10 +242,17 @@ h6
   color: #ffffff;
 }
 
-#footer-contact
+#footer-links
 {
   float: right;
   margin-right: 10px;
+  font-size: 12px;
+}
+
+#footer-links a
+{
+  display: block;
+  text-align: right;
 }
 
 #footer #to-top

@@ -83,14 +83,13 @@
 
   <footer id="footer">
     <div class="content-block">
-      <a id="footer-contact" href="{{source.resolve_link("contact", locale)[1]}}" hreflang="{{source.resolve_link("contact", locale)[0]}}">
-        Made with ♥ in Cologne
-      </a>
-
-      <div class="footer-text">
+      <small>
         Adblock Plus™ and Acceptable Ads™ are registered trademarks of Eyeo GmbH.
+      </small>
+      <div id="footer-links">
+        {{"contact"|linkify}}Made with ♥ in Cologne</a>
+        {{"privacy"|linkify}}Privacy Policy</a>
       </div>
-
     </div>
   </footer>
 </body>
