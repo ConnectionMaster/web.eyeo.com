@@ -1,5 +1,5 @@
-![](/images/people/maren.jpg)
+![](/images/people/joanna.png)
 
-Maren Böger<br>
+Joanna Sitarz<br>
 Email: [jobs@eyeo.com](mailto:jobs@eyeo.com)<br>
-Phone: +49 221 63069601
+Phone: +49 221 64306336
