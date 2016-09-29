@@ -120,24 +120,26 @@ h6
 
 #header.top .content-block
 {
-  padding: 25px 10px;
+  padding: 20px 10px;
 }
 
 #logo
 {
   position: absolute;
-  top: 7px;
+  top: 50%;
   left: 10px;
+  margin-top: -20px;
+  height: 40px;
 }
 
-#header.top #logo
+#logo img
 {
-  top: 17px;
+  height: 100%;
 }
 
 #header .menu-button
 {
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 20px;
 }
 
 #menu
@@ -173,7 +175,7 @@ h6
 .menu-list li a
 {
   color: #979797;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 .menu-list li:hover > a,
@@ -818,14 +820,11 @@ header > *, .content-block
     padding: 9px 10px;
   }
 
-  #header.top #logo
+  #logo
   {
-    top: 7px;
-  }
-
-  #logo > img
-  {
-    height: 34px;
+    top: 14px;
+    margin-top: 0px;
+    height: 22px;
   }
 
   #menu
