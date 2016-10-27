@@ -14,4 +14,4 @@ Fax: +49 (0) 221 / 65028 599
 
 VAT-ID: DE279292414<br>
 District Court Cologne: HRB 73508<br>
-Managing Directors: Till Faida, Felix Dahlke
+Managing Directors: Till Faida, Felix Dahlke, Steffen Kiedel
