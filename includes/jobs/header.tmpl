@@ -14,6 +14,7 @@
 
 {% set opening = openings|find(page.split("/")[-1], attribute=1) %}
 {% set title = (opening or [title])[0] %}
+{% set og_image = "images/eyeo-meta-jobs.png" %}
 
 <header class="page-title">
   <h1>Working at Eyeo</h1>
