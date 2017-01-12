@@ -1,14 +1,32 @@
 title=Press
 
-<script src="/js/jquery.ui.core.min.js"></script>
-<script src="/js/jquery.ui.widget.min.js"></script>
-<script src="/js/jquery.ui.tabs.min.js"></script>
-<script>
-  jQuery(function()
-  {
-    jQuery("#tabs").tabs();
-  });
-</script>
+<head>
+  <style>
+    #media-gallery img
+    {
+      vertical-align: middle;
+      max-height: 150px;
+      max-width: 150px;
+    }
+
+    #media-gallery a
+    {
+      display: inline-block;
+      line-height: 150px;
+      width: 150px;
+    }
+  </style>
+  <script src="/js/jquery.ui.core.min.js"></script>
+  <script src="/js/jquery.ui.widget.min.js"></script>
+  <script src="/js/jquery.ui.tabs.min.js"></script>
+  <script>
+    jQuery(function()
+      {
+        jQuery("#tabs").tabs();
+        jQuery("#media a").attr("download", "");
+      });
+  </script>
+</head>
 
 <header class="page-title">
   <h1>Press</h1>

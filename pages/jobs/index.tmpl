@@ -1,13 +1,35 @@
 title=Working at Eyeo
 
 <head>
+  <link rel="stylesheet" href="/css/jquery.lightbox.css" type="text/css" media="screen">
+  <style>
+    .image-gallery a
+    {
+      display: inline-block;
+      overflow: hidden;
+      max-width: 150px;
+    }
+
+    .image-gallery img
+    {
+      height: 150px;
+    }
+  </style>
   <script src="/js/jquery.ui.core.min.js"></script>
   <script src="/js/jquery.ui.widget.min.js"></script>
   <script src="/js/jquery.ui.tabs.min.js"></script>
+  <script src="/js/jquery.lightbox.min.js"></script>
   <script>
     jQuery(function()
     {
       jQuery("#tabs-details").tabs();
+      jQuery(".image-gallery a").lightBox({
+        imageBtnPrev: "/images/lightbox/btn-prev.gif",
+        imageBtnNext: "/images/lightbox/btn-next.gif",
+        imageBtnClose: "/images/lightbox/btn-close.gif",
+        imageLoading: "/images/lightbox/ico-loading.gif",
+        imageBlank: "/images/lightbox/blank.gif"
+      });
     });
   </script>
 </head>
