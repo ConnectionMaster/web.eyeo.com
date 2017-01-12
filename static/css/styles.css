@@ -1,55 +1,81 @@
 /*
  * Fonts
  */
-@font-face {
-  font-family: "Lato";
+
+@font-face
+{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
   font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(/fonts/Lato-Regular.woff) format('woff');
+  font-stretch: normal;
+  src: local('Source Sans Pro Light'),
+    local('SourceSansPro-Light'),
+    url('../fonts/SourceSansPro-Light.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansPro-Light.ttf.woff2') format('woff2'),
+    url('../fonts/SourceSansPro-Light.otf.woff') format('woff'),
+    url('../fonts/SourceSansPro-Light.otf') format('opentype'),
+    url('../fonts/SourceSansPro-Light.ttf') format('truetype');
 }
-@font-face {
-  font-family: "Lato";
+
+@font-face
+{
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  src: local('Source Sans Pro Light Italic'),
+    local('SourceSansPro-LightIt'),
+    url('../fonts/SourceSansPro-LightIt.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansPro-LightIt.ttf.woff2') format('woff2'),
+    url('../fonts/SourceSansPro-LightIt.otf.woff') format('woff'),
+    url('../fonts/SourceSansPro-LightIt.otf') format('opentype'),
+    url('../fonts/SourceSansPro-LightIt.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
   font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"), url(/fonts/Lato-Bold.woff) format('woff');
-}
-@font-face {
-  font-family: "Lato";
-  font-style: italic;
-  font-weight: 400;
-  src: local("Lato Italic"), local("Lato-Italic"), url(/fonts/Lato-Italic.woff) format('woff');
-}
-@font-face {
-  font-family: "Lato";
-  font-style: italic;
-  font-weight: 700;
-  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(/fonts/Lato-BoldItalic.woff) format('woff');
+  font-stretch: normal;
+  src: local('Source Sans Pro'),
+    local('SourceSansPro-Regular'),
+    url('../fonts/SourceSansPro-Regular.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansPro-Regular.ttf.woff2') format('woff2'),
+    url('../fonts/SourceSansPro-Regular.otf.woff') format('woff'),
+    url('../fonts/SourceSansPro-Regular.otf') format('opentype'),
+    url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
 /*
  * General layout
  */
 
+html
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.333333;
+  color: #161616;
+}
+
 body
 {
-  font-family: Lato, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #747474;
-  padding: 0;
+  padding: 84px 0 0 0;
   margin: 0;
-  padding-top: 78px;
 }
 
 a
 {
-  color: #7ac142;
+  font-weight: 400;
   text-decoration: none;
+  color: #161616;
 }
 
 a:hover
 {
-  color: #91e64f;
+  text-decoration: underline;
 }
 
 img
@@ -62,11 +88,6 @@ footer,
 nav
 {
   display: block;
-}
-
-h1, h2, h3, h4, h5, h6
-{
-  color: #333;
 }
 
 h1
@@ -109,18 +130,24 @@ h6
   box-shadow: 0px 0px 12px rgba(0,0,0, 0.09);
   z-index: 10000;
   text-align: right;
+  text-transform: uppercase;
 }
 
 #header .content-block
 {
   position: relative;
-  padding: 15px 10px;
+  padding: 10px;
   min-height: 32px;
+}
+
+#header.top
+{
+  box-shadow: none;
 }
 
 #header.top .content-block
 {
-  padding: 20px 10px;
+  padding: 22px 10px;
 }
 
 #logo
@@ -139,7 +166,7 @@ h6
 
 #header .menu-button
 {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 5px 0px 20px;
 }
 
 #menu
@@ -161,7 +188,7 @@ h6
 {
   display: inline;
   margin: 0px;
-  font-size: 15px;
+  font-size: 16px;
   list-style: none;
 }
 
@@ -181,7 +208,8 @@ h6
 .menu-list li:hover > a,
 .menu-list li.current-menu-item > a
 {
-  color: #373737;
+  text-decoration: none;
+  color: #161616;
 }
 
 #header-hamburger
@@ -189,21 +217,19 @@ h6
   display: none;
 }
 
-#header-hamburger:hover .icon-bar,
-#header-hamburger:focus .icon-bar,
-#header-hamburger:active .icon-bar
-{
-  background-color: #000;
-}
-
-
 .icon-bar
 {
   display: block;
   width: 22px;
   height: 2px;
-  border-radius: 1px;
-  background-color: #888;
+  background-color: #fff;
+}
+
+#header-hamburger:hover .icon-bar,
+#header-hamburger:active .icon-bar,
+#header-hamburger:focus .icon-bar
+{
+  background-color: #161616;
 }
 
 .icon-bar+.icon-bar
@@ -228,8 +254,8 @@ h6
 
 #footer
 {
-  color: #666;
-  background-color: #252525;
+  color: #fff;
+  background-color: #2d2d2d;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -299,11 +325,9 @@ h6
 
 .heading
 {
-  margin: 0;
   margin-bottom: 20px;
-  border-bottom: 1px solid #E2E2E2;
-  font-weight: normal;
-  height: 0.7em;
+  font-size: 28px;
+  font-weight: 400;
 }
 
 .heading span
@@ -326,17 +350,16 @@ h6
 button, .button, .menu-button
 {
   display: inline-block;
-  cursor: pointer;
-  background-color: #7ac142;
-  color: #ffffff;
-  border: none;
-  border-radius: 3px;
+  padding: 0px 20px;
+  background-color: #161616;
+  border: 2px solid #161616;
+  border-radius: 0px;
+  color: #fff;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 36px;
   white-space: nowrap;
-  height: 36px;
-  padding: 0 20px;
+  cursor: pointer;
 }
 
 button:hover,
@@ -346,14 +369,14 @@ button:focus,
 .menu-button:hover,
 .menu-button:focus
 {
-  background-color: #7FCF42;
-  color: #ffffff;
+  background-color: #fff;
+  color: #161616;
+  text-decoration: none;
 }
 
 .page-title
 {
-  background-image: url(/images/subtlenet2.png);
-  background-color: #e9e9e5;
+  background-color: #f2f2f2;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 40px;
@@ -397,7 +420,12 @@ button:focus,
 {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
+}
+
+#our-work h3
+{
+  text-transform: uppercase;
 }
 
 #media
@@ -408,11 +436,6 @@ button:focus,
 #our-work .heading span
 {
   background-color: #f0f0f0;
-}
-
-#our-work .column
-{
-  text-align: center;
 }
 
 .profile
@@ -571,21 +594,16 @@ button:focus,
   list-style: none;
   float: left;
   margin: 0;
-
   border: 1px solid #E1E1E1;
   border-left: none;
   border-bottom-color: #CFCFCF;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-
   transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
 }
 
+.ui-tabs-nav-vertical li,
 .ui-tabs-nav li:first-child
 {
   border-left: 1px solid #E1E1E1;
@@ -596,10 +614,25 @@ button:focus,
 .ui-tabs-nav li:hover
 {
   background-color: #fff;
-  border-top: 2px solid #7ac142;
+  border-top: 2px solid #161616;
   border-bottom: none;
   position: relative;
-  top: 2px;
+  top: 1px;
+}
+
+.ui-tabs-nav-vertical li.ui-tabs-active,
+.ui-tabs-nav-vertical li:hover
+{
+  border: 1px solid #161616;
+  background-color: #161616;
+  top: 0px;
+}
+
+.ui-tabs-nav-vertical li.ui-tabs-active a,
+.ui-tabs-nav-vertical li:hover a
+{
+  color: #fff;
+  text-decoration: none;
 }
 
 .ui-tabs-active .ui-tabs-anchor
@@ -798,12 +831,16 @@ header > *, .content-block
 .why-work-here-button
 {
   background-color: #747474;
+  border-color: #747474;
 }
 
 .why-work-here-button:hover,
+.why-work-here-button:active,
 .why-work-here-button:focus
 {
-  background-color: #333;
+  background-color: #fff;
+  border-color: #747474;
+  color: #747474;
 }
 
 
@@ -840,12 +877,13 @@ header > *, .content-block
   #header-hamburger
   {
     position: absolute;
-    top: 9px;
-    right: 10px;
+    top: 7px;
+    right: 6px;
     display: block;
-    padding: 0px;
-    margin: 0px 5px;
-    background: none;
+    height: 36px;
+    width: 36px;
+    margin: 0;
+    padding: 0px 5px;
   }
 
   .menu-list
@@ -872,10 +910,10 @@ header > *, .content-block
   .menu-button
   {
     position: absolute;
-    top: 9px;
-    right: 50px;
+    top: 7px;
+    right: 43px;
     height: 32px;
-    padding: 0 10px;
+    padding: 0 6px;
     line-height: 32px;
     font-size: 14px;
   }
@@ -911,14 +949,14 @@ header > *, .content-block
     float: left; width: 100%;
     border-bottom: none;
   }
+
   .ui-tabs-nav-vertical li
   {
     clear: left;
     width: 100%;
-    border-bottom-width: 1px !important;
-    border-left: 1px solid #E1E1E1 !important;
     margin: 0 -1px .2em 0;
   }
+
   .ui-tabs-nav-vertical li.ui-tabs-active
   {
     padding-bottom: 0;

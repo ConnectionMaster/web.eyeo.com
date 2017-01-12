@@ -54,7 +54,7 @@
       <nav id="menu" role="navigation" aria-labelledby="header-hamburger" aria-expanded="false">
         <h1 class="assistive-text">Main menu</h1>
         <ul class="menu-list">
-          {%- for link, title in [("index", "About Us"), ("services", "Services"), ("team", "Team"), ("press", "Press"), ("contact", "Contact Us")] %}
+          {%- for link, title in [("index", "About"), ("services", "Services"), ("team", "Team"), ("press", "Press"), ("contact", "Contact")] %}
             {%- if link == page %}
               <li class="current-menu-item">
                 {{link|linkify}}
