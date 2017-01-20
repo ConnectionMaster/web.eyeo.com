@@ -7,17 +7,17 @@
     {
       color: #e73c2f;
     }
-    
+
     #criteria-summary
     {
       font-weight: bold;
     }
-    
+
     #form
     {
       max-width: 650px;
     }
-    
+
     noscript
     {
       display: block;
@@ -30,7 +30,7 @@
 
 <header id="header">
   <div class="content-block">
-    <a id="logo" rel="home" href="http://eyeo.com/" hreflang="en" title="Eyeo GmbH"><img  src="/images/logo.png" srcset="/images/logo.png 1x, /images/logo-2x.png 2x" alt="Eyeo GmbH"></a>
+    <a id="logo" rel="home" href="http://eyeo.com/" hreflang="en" title="eyeo GmbH"><img  src="/images/logo.png" srcset="/images/logo.png 1x, /images/logo-2x.png 2x" alt="eyeo GmbH"></a>
   </div>
 </header>
 
@@ -38,34 +38,34 @@
   <header class="page-title">
     <h1>Acceptable Ads Application</h1>
   </header>
-  
+
   <noscript>
     <div class="content-block">
       This form requires JavaScript to be enabled to limit the amount of spam we get. Please consider enabling it for this page.
     </div>
   </noscript>
-  
+
   <div class="content-block">
     <p class="important">
       If you would like to report <strong>falsely blocked content (no ads)</strong> or broken functionality due to Adblock Plus, please use our Firefox <a href="https://adblockplus.org/en/getting_started#problems">issue report</a> tool instead.
     </p>
-    
+
     <p>
       We love the Internet, but we think it can improve. Help us make it a better place!
     </p>
-    
+
     <p>
       We've been running an open source adblocker since 2006, and we know that lots of websites depend on ads; however, we also know that users won't accept flashy banners. We see a solution: In our years of adblocking we've learned that most users actually don't mind seeing better, more informative ads.
     </p>
-    
+
     <p>
       The <a href="https://adblockplus.org/en/acceptable-ads" target="_blank">Acceptable Ads initiative</a> ​ is simple: if your ads are non-intrusive and abide by our <a href="https://adblockplus.org/en/acceptable-ads#criteria" target="_blank">criteria</a>, they will be seen by a much larger audience, thus increasing your traffic and revenue. Many advertisers and publishers already benefit from using Acceptable Ads. If you want to be one of them, read our guidelines and fill out the form.
     </p>
-    
+
     <p>
       Before applying, please ensure that your ads comply with all of our criteria, including these general guidelines:
     </p>
-    
+
     <ol id="criteria-summary">
       <li>
         No animation, it has to be static
@@ -80,7 +80,7 @@
         Clearly separated from the content
       </li>
     </ol>
-    
+
     <form id="WebToLeadForm" action="#" method="POST" name="WebToLeadForm">
       <table id="form">
         <tbody>
@@ -90,80 +90,80 @@
               <input id="account_name" type="text" name="account_name" />
             </td>
           </tr>
-          
+
           <tr>
             <td>First Name: <span class="required">*</span></td>
             <td>
               <input id="first_name" type="text" name="first_name" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Last Name: <span class="required">*</span></td>
             <td>
               <input id="last_name" type="text" name="last_name" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Job Title:</td>
             <td>
               <input id="title" type="text" name="title" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Company Website:</td>
             <td>
               <input id="website" type="text" name="website" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Email Address: <span class="required">*</span></td>
             <td>
               <input id="email1" type="email" name="email1" onchange="validateEmailAdd();" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Office Phone:</td>
             <td>
               <input id="phone_work" type="tel" name="phone_work" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Exact URL with acceptable ads: <span class="required">*</span></td>
             <td>
               <input id="website_with_acceptable_ads_c" type="url" name="website_with_acceptable_ads_c" onchange="isHuman=true;" /></td>
           </tr>
-          
+
           <tr>
             <td>Exact second URL with acceptable ads:</td>
             <td>
               <input id="second_website_with_acc_ads_c" type="url" name="second_website_with_acc_ads_c" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Exact third URL with acceptable ads:</td>
             <td>
               <input id="third_website_with_acc_ads_c" type="url" name="third_website_with_acc_ads_c" />
             </td>
           </tr>
-          
+
           <tr>
             <td>Comment:</td>
             <td>
               <textarea id="description" type="text" name="description" /></textarea>
             </td>
           </tr>
-          
+
           <tr>
             <td colspan="2"><span class="required">*</span> required</td>
           </tr>
-          
+
           <tr>
             <td colspan="2">
               <strong>
@@ -171,7 +171,7 @@
               </strong>
             </td>
           </tr>
-          
+
           <tr>
             <td colspan="2">
               <input id="campaign_id" type="hidden" name="campaign_id" value="b4bb0e3e-f12c-9a06-e44c-51dfd1aa6793" />
@@ -179,14 +179,14 @@
               <input id="team_id" type="hidden" name="team_id" value="1" />
               <input id="team_set_id" type="hidden" name="team_set_id" value="Global" />
               <input id="req_id" type="hidden" name="req_id" value="first_name;last_name;email1;website_with_acceptable_ads_c;" />
-              
+
               <input class="button" onclick="submit_form();" type="button" name="Submit" value="Submit" />
             </td>
           </tr>
         </tbody>
       </table>
     </form>
-    
+
     <p>
       <strong>Privacy policy:</strong> Your information will be stored and used only to handle this application and to respond to your inquiry. It will never be shared with any third party. If you would like to have your information removed from our database, please email us at <a href="mailto:acceptableads@adblockplus.org">acceptableads@adblockplus.org</a>.
     </p>
@@ -248,12 +248,12 @@
         else
           document.WebToLeadForm.submit();
       }
-      
+
       function validateEmailAdd()
       {
         if (document.getElementById("email1") && document.getElementById("email1").value.length > 0 && document.getElementById("email1").value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null)
           alert("Not a valid email address");
-        
+
         if (document.getElementById("email2") && document.getElementById("email2").value.length > 0 && document.getElementById("email2").value.match(/^\w+(['\.\-\+]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/) == null)
           alert("Not a valid email address");
       }
@@ -261,7 +261,7 @@
     <script type="text/javascript">
       // Custom form validation
       var isHuman = false;
-      
+
       function validateCaptchaAndSubmit()
       {
         if (!isHuman)
@@ -281,7 +281,7 @@
     <a id="footer-contact" href="/en/contact" hreflang="en">
       Made with ♥ in Cologne
     </a>
-    Adblock Plus™ and Acceptable Ads™ are registered trademarks of Eyeo GmbH.
+    Adblock Plus™ and Acceptable Ads™ are registered trademarks of eyeo GmbH.
   </div>
 </footer>
 

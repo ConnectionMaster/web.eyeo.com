@@ -9,7 +9,7 @@
 
 **What we are expecting**
 
-- You are enrolled at a german university
+- You are enrolled at a German university
 - You are fluent in English, verbally and written
 - You are proactive, self-motivated and you get things done
 - Working independently is something you like and you are capable of

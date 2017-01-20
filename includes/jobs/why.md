@@ -10,7 +10,7 @@ We’re well aware that we threaten long-established paradigms by asking if the 
 
 <? include jobs/why-gallery ?>
 
-**We don’t get bored here at Eyeo, but you don’t have to live here to work here**
+**We don’t get bored here at eyeo, but you don’t have to live here to work here**
 
 The English writer Samuel Johnson once said that, “When a man is tired of London, he is tired of life.” We’d say the same about Cologne and Berlin. Not all of us are from here; in all, our <? include size-of-team ?> people represent 24 countries, and we haven’t yet found a way to get bored — at work or after.
 

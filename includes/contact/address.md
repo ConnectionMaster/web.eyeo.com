@@ -1,7 +1,7 @@
 ### <span>Mailing address:</span> ### {.heading}
 
 Cologne <br>
-Eyeo GmbH<br>
+eyeo GmbH<br>
 Lichtstraße 25<br>
 50825 Cologne<br>
 Germany</p>
@@ -10,7 +10,7 @@ Germany</p>
 [![Cologne map with office location](/images/map-cologne-office.png)](https://www.google.com/maps/place/Lichtstraße+25,+50825+Cologne,+Germany/)
 
 Berlin<br>
-Eyeo GmbH<br>
+eyeo GmbH<br>
 Oranienburger Str. 66<br>
 10117 Berlin<br>
 Germany

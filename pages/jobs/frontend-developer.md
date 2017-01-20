@@ -1,6 +1,6 @@
 <? include jobs/header ?>
 
-Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join Eyeo, you can do it for a living. Eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
+Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join eyeo, you can do it for a living. eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
 
 We manage the business and development ends of Adblock Plus (the most popular browser extension ever) and Acceptable Ads (supported by most popular adblockers today). Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne or Berlin, or pay for a coworking space in your vicinity.
 

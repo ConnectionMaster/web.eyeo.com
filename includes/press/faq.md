@@ -4,19 +4,19 @@ _For more information about Adblock Plus, go [here](https://adblockplus.org/en/a
 
 Wladimir Palant wrote the original Adblock Plus in 2006.
 
-**What happened between 2006 and founding Eyeo in 2011?**
+**What happened between 2006 and founding eyeo in 2011?**
 
 In that time Wladimir’s Adblock Plus became the most popular extension ever.
 
-Then in 2011 he met Till Faida, whose background was in online marketing. They started talking about collaborating, because they both felt that online advertising was broken. Coming at the issue with completely different backgrounds, they started looking for a middle ground. Their solution became the [Acceptable Ads initiative](https://adblockplus.org/en/acceptable-ads), and they founded Eyeo out of a necessity to have a legal business entity for support and to develop additional products that give users control over their online experience.
+Then in 2011 he met Till Faida, whose background was in online marketing. They started talking about collaborating, because they both felt that online advertising was broken. Coming at the issue with completely different backgrounds, they started looking for a middle ground. Their solution became the [Acceptable Ads initiative](https://adblockplus.org/en/acceptable-ads), and they founded eyeo out of a necessity to have a legal business entity for support and to develop additional products that give users control over their online experience.
 
-**What is Eyeo’s relationship with Adblock Plus?**
+**What is eyeo’s relationship with Adblock Plus?**
 
-The product "Adblock Plus" is owned and operated by Eyeo GmbH (a GmbH is the German equivalent to a Ltd./Inc.). Eyeo also owns the rights to Adblock Plus and all associated names and trademarks.
+The product "Adblock Plus" is owned and operated by eyeo GmbH (a GmbH is the German equivalent to a Ltd./Inc.). eyeo also owns the rights to Adblock Plus and all associated names and trademarks.
 
-**What is the nature of Eyeo’s business?**
+**What is the nature of eyeo’s business?**
 
-Till Faida and Wladimir Palant founded Eyeo GmbH and the Acceptable Ads initiative to create a sustainable middle ground for online advertisements that is beneficial to both user and advertiser. To take part in the initiative, websites have to conform to strict guidelines. Once they have, ads on their sites are whitelisted. Whitelisting is free for small and medium websites and blogs. To make the initiative sustainable, larger properties that have gone through the same whitelisting process as all other ones are charged a fee. We are in the process of developing new products in line with our essential [mission](index#mission).
+Till Faida and Wladimir Palant founded eyeo GmbH and the Acceptable Ads initiative to create a sustainable middle ground for online advertisements that is beneficial to both user and advertiser. To take part in the initiative, websites have to conform to strict guidelines. Once they have, ads on their sites are whitelisted. Whitelisting is free for small and medium websites and blogs. To make the initiative sustainable, larger properties that have gone through the same whitelisting process as all other ones are charged a fee. We are in the process of developing new products in line with our essential [mission](index#mission).
 
 **Can Adblock Plus users still block all ads, even those that have been whitelisted?**
 

@@ -1,6 +1,6 @@
 <? include jobs/header ?>
 
-Literally everything we do is open source. Anyone can contribute. If you join Eyeo, you can do it for a living.
+Literally everything we do is open source. Anyone can contribute. If you join eyeo, you can do it for a living.
 
 Do you want to make the Internet a better place for everyone? Then you should keep on reading!
 
@@ -19,7 +19,7 @@ Do you want to make the Internet a better place for everyone? Then you should ke
 
 - Passion and commitment to your tasks
 - Thinking outside the box
-- Ability to work and learn independently 
+- Ability to work and learn independently
 - Excellent communication skills in English, as this is our company language
 - If you are applying for a developer role:
     - Strong experience with either JavaScript, Python, or Java
@@ -31,6 +31,6 @@ If all this looks, sounds and feels like you, but none of the jobs currently lis
 
 **If you have any questions upfront drop our HR Manager a message or call her!**
 
-Eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
+eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
 
 <? include jobs/footer ?>
