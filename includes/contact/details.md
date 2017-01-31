@@ -1,6 +1,9 @@
 ### <span>Follow us:</span> ### {.heading}
 
-[![Twitter](/images/twitter.png)](https://twitter.com/eyeo)
+[![Twitter Icon](/images/eyeo-twitter.png)](https://twitter.com/eyeo)
+[![Facebook Icon](/images/eyeo-facebook.png)](https://www.facebook.com/EyeoGmbH)
+[![Linkedin Icon](/images/eyeo-linkedin.png)](https://www.linkedin.com/company/eyeo-gmbh)
+[![Instagram Icon](/images/eyeo-instagram.png)](https://instagram.com/adblockplus)
 
 ### <span>Contact details:</span> ### {.heading}
 
