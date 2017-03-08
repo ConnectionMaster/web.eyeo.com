@@ -3,7 +3,7 @@
 **How you will support us**
 
 - Troubleshooting issues reported by users
-- Creation, reviewing and optimizing filters for Polish sites to support the local community
+- Creation, reviewing and optimizing filters for Indian sites to support the local community
 - Monitoring and responding to questions in the user forum
 
 **What you need for your daily business**
