@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{locale}}">
 <head>
+  {# HTML5 essentials #}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {# HTML5 meta #}
+  {% if description %}
+  <meta name="description" content="{{ description }}">
+  {% endif %}
+
+  {# http://ogp.me/ #}
   <meta property="og:image" content="{{og_image if og_image else 'https://eyeo.com/images/eyeo-meta-default.png'}}">
 
   {% if title %}
