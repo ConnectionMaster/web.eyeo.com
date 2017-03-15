@@ -12,7 +12,7 @@ eyeo is headquartered in Cologne, Germany with a satellite office in Berlin. How
 
 **Job description**
 
-We’re looking for a creative copywriter (consultant) with a sharp, snappy sense of humor to work directly with our marketing managers, content developers, art directors, designers, PR managers and others to be the voice of eyeo. We need you to establish brand standards, develop copywriting guidelines and, of course, execute our voice across all channels.
+We’re looking for a creative copywriter with a sharp, snappy sense of humor to work directly with our marketing managers, content developers, art directors, designers, PR managers and others to be the voice of eyeo. We need you to establish brand standards, develop copywriting guidelines and, of course, execute our voice across all channels.
 
 If this sounds like you, please submit your CV / resume, a short summary of why you’re applying, your earliest possible start date and your salary expectations.
 
