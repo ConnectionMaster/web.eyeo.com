@@ -1,8 +1,10 @@
-Benefits for employees:
+#### What we offer...
 
-* Work on a product millions of people love
-* Immediate responsibility that takes years to get in the corporate world
-* Work where you want. We can help you relocate to Cologne or Berlin, or pay for a coworking space
-* Free choice of hardware and software
-* Easygoing atmosphere, flat hierarchy, no dress code, ping pong
-* A “job ticket” that gives you a free ride on all regional transportation, also on weekends
+- Work where you like — choose to work remotely (we’ll pay for a co-working space) or from one of our offices in Cologne or Berlin (relocation assistance provided).
+- Have your local travel costs covered by us if you live in Cologne or Berlin.
+- Have relevant conference visits paid for by us.
+- Further your knowledge. We’ll pay for a percentage of your (relevant) education costs.
+- Receive monthly coverage towards childcare costs.
+- Attend our company parties in Cologne (once in summer and once around Christmas). If you work remotely, your flights and hotel are covered.
+- Choose your own hardware and software.
+- Absolutely no micromanaging. We hired you, we believe in you.

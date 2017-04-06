@@ -1,5 +1,7 @@
-# Join us in changing the Internet!#
+# Join us in changing the Internet!
 
-We are <? include size-of-team ?> people who manage the business and development ends of an open source product that is used on 100 million devices. And we’re looking to change a billion-dollar industry. Like them odds? Then maybe we should change that number to <? include size-of-team-plus-one ?> …
+**Work on products that millions of people love.**
 
-eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, origins, orientations, etc., to apply.
+We are <? include size-of-team ?> people who create open source software that puts users in control over their online browsing experience. Our products, such as Adblock Plus, Adblock Browser and Flattr Plus, help sustain and grow a fair, open web, because they give users control while providing user-friendly monetization. Our most popular product, Adblock Plus, is currently used on over 100 million devices.
+
+eyeo is proud to be an equal opportunity workplace. We strongly support diversity in the workplace and encourage candidates of all races, colors, ancestries, religions, sexes, national origins, sexual orientations, ages, citizenships, marital statuses, disabilities, gender identities or Veteran statuses to apply.
