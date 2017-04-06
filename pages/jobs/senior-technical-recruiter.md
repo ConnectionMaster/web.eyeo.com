@@ -12,7 +12,7 @@ eyeo is headquartered in Cologne, Germany with a satellite office in Berlin. How
 
 **Job description**
 
-We're looking for a dedicated Recruitment Manager to join our team and help us grow. Recruiting for you is not only a job, it's a passion which you pursue by thinking creatively. Is getting in touch with people and engaging them something you're able to do blindfolded? Are you always on the hunt for new, alternative ways of finding the right candidates? And last but not least, do you love working with smart and funny people who are crazy about the products they're working on? If you answered 'yes' to these questions, then we're looking for YOU!
+We're looking for a dedicated Senior Technical Recruiter to join our team and help us grow. Recruiting for you is not only a job, it's a passion which you pursue by thinking creatively. Is getting in touch with people and engaging them something you're able to do blindfolded? Are you always on the hunt for new, alternative ways of finding the right candidates? And last but not least, do you love working with smart and funny people who are crazy about the products they're working on? If you answered 'yes' to these questions, then we're looking for YOU!
 
 **Responsibilities**
 
