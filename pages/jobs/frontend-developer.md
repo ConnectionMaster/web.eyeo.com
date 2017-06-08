@@ -6,7 +6,7 @@ We manage the business and development ends of Adblock Plus (the most popular br
 
 We’re looking for someone who is passionate about the web to help us prototype new products, update and maintain our existing frontend projects, and promote Adblock Plus in creative, non-intrusive ways. (And, if you feel like it, you can contribute to any of our other projects, or upstream on related open source projects.)
 
-**You need for this role**
+### You need for this role
 
 - A deep understanding of how the web works, including HTTP, HTML, CSS, JavaScript, browser quirks, security, and performance
 - Experience running and developing on Free Software platforms like GNU/Linux
@@ -14,7 +14,7 @@ We’re looking for someone who is passionate about the web to help us prototype
 - Basic knowledge of typography and website/application design
 - Experience with Python would be a plus
 
-**All Jobs require**
+### All Jobs require
 
 - Excellent communication skills in English
 - The ability to work and learn independently

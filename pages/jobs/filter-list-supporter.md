@@ -1,12 +1,12 @@
 <? include jobs/header ?>
 
-**How you will support us**
+### How you will support us
 
 - Troubleshooting issues reported by users
 - Creation, reviewing and optimizing filters for Indian sites to support the local community
 - Monitoring and responding to questions in the user forum
 
-**What you need for your daily business**
+### What you need for your daily business
 
 - Excellent English skills
 - Technical understanding of how Ad Serving works

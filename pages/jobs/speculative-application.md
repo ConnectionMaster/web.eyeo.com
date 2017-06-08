@@ -4,7 +4,7 @@ Literally everything we do is open source. Anyone can contribute. If you join ey
 
 Do you want to make the Internet a better place for everyone? Then you should keep on reading!
 
-**What you can expect**
+### What you can expect
 
 - Work with colleagues from 13 different nations
 - Contribute to our vision of a better web
@@ -15,7 +15,7 @@ Do you want to make the Internet a better place for everyone? Then you should ke
 - We offer relocation assistance if you’d like to move near our offices in Cologne or Berlin, Germany
 - Choose your own hard- and software
 
-**What we are expecting**
+### What we are expecting
 
 - Passion and commitment to your tasks
 - Thinking outside the box
@@ -26,7 +26,9 @@ Do you want to make the Internet a better place for everyone? Then you should ke
     - Solid understanding of algorithms and data structures
     - Solid understanding of how the web works
 
-**We are looking forward to your speculative application**
+
+### We are looking forward to your speculative application
+
 If all this looks, sounds and feels like you, but none of the jobs currently listed meet your skills, just send us a speculative application! We are always looking for new talent with excellent skills. Please submit your CV/resume and/or a short summary of why you’re applying and in what role(s) you are interested in. We can find out the rest from there!
 
 **If you have any questions upfront drop our HR Manager a message or call her!**
