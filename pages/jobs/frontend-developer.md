@@ -1,25 +1,35 @@
 <? include jobs/header ?>
 
-Literally everything we do is [open source](https://hg.adblockplus.org). Anyone can contribute. If you join eyeo, you can do it for a living. eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
+**Everything we do is Free / Libre and Open Source and anyone can contribute.**
 
-We manage the business and development ends of Adblock Plus (the most popular browser extension ever) and Acceptable Ads (supported by most popular adblockers today). Most of our developers work remotely, so can you. If you'd prefer an office environment, we'll help you relocate to Cologne or Berlin, or pay for a coworking space in your vicinity.
+### Who we are
 
-We’re looking for someone who is passionate about the web to help us prototype new products, update and maintain our existing frontend projects, and promote Adblock Plus in creative, non-intrusive ways. (And, if you feel like it, you can contribute to any of our other projects, or upstream on related open source projects.)
+We create software that puts users in control over their online browsing experience. Our products, such as Adblock Plus, Adblock Browser and Flattr, help sustain and grow a fair, open web, because they give users control while providing user-friendly monetization. Our most popular product, Adblock Plus, is currently used on over 100 million devices.
 
-### You need for this role
+eyeo is headquartered in Cologne, Germany with satellite offices in Berlin and Malmö, Sweden. However, much of our team works remotely — and so can you. We offer relocation assistance should you wish to join us in Cologne or Berlin.
 
-- A deep understanding of how the web works, including HTTP, HTML, CSS, JavaScript, browser quirks, security, and performance
-- Experience running and developing on Free Software platforms like GNU/Linux
-- The ability to iterate and ship ideas quickly, with loose (at best) direction
-- Basic knowledge of typography and website/application design
-- Experience with Python would be a plus
+### Job description
 
-### All Jobs require
+We’re looking for a frontend developer to join our global team to help build websites. You should have exceptional attention to detail, favor minimalism and consistency.
 
-- Excellent communication skills in English
-- The ability to work and learn independently
-- High integrity
+#### Responsibilities
 
-When applying, please include a code sample or, preferably, references to open source projects you worked on.
+- Frontend maintenance
+- Frontend development
+- Frontend design review
+- Frontend technology consulting
+- Issue management
+
+#### Candidate qualifications
+
+- A deep understanding of how the web works, including experience in HTML5, CSS, JavaScript, browser quirks, security and performance
+- Comfortable working with Git or Mercurial, Bash and Python. Experience working with Mercurial is ideal, but not required.
+- Basic knowledge of UI / UX and website / application design
+- Detail oriented (you notice holes and inconsistencies), problem solving and debugging skills
+- Willingness to learn new technologies
+- Ability to communicate effectively via text chat (IRCCloud) and video conference (Bluejeans) in English
+- Ability to manage your own workload efficiently
+- Experience building several full-stack (frontend and backend), full-project (following a process start-to-finish), high-traffic (considering performance, security, accessibility, SEO, etc.) websites is a huge plus. -
+- Being part of a team that has done this is also a plus.
 
 <? include jobs/footer ?>
