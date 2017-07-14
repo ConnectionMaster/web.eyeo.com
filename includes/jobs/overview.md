@@ -1,7 +1,19 @@
-# Join us in changing the Internet!
+## Join us in changing the Internet!
 
-**Work on products that millions of people love.**
+**We’re looking for passionate and creative people who want to make the world wide web a better place for everyone for years to come.**
 
-We are <? include size-of-team ?> people who create open source software that puts users in control over their online browsing experience. Our products, such as Adblock Plus, Adblock Browser and Flattr Plus, help sustain and grow a fair, open web, because they give users control while providing user-friendly monetization. Our most popular product, Adblock Plus, is currently used on over 100 million devices.
+### We’re a tight-knit team
 
-eyeo is proud to be an equal opportunity workplace. We strongly support diversity in the workplace and encourage candidates of all races, colors, ancestries, religions, sexes, national origins, sexual orientations, ages, citizenships, marital statuses, disabilities, gender identities or Veteran statuses to apply.
+We are <? include size-of-team ?> people from around the world creating software that millions of people use everyday to make their online experience more enjoyable.
+
+Our multi-cultural team consists of writers, artists, gamers, foodies, athletes - you name it. We all work together to create the best possible software for our users.
+
+### We’re serious about our products
+
+Our software, Adblock Plus, Adblock Browser and Flattr, help sustain and grow a fair, open web by giving users total control over their online browsing experience while, at the same time, providing user-friendly monetization for content creators and publishers.
+
+*Fun fact: Adblock Plus is used on over 100 million devices and is the most downloaded browser extension in the world!*
+
+### We’re all over the world
+
+eyeo is headquartered in Cologne, Germany, with satellite offices in Berlin, Germany and Malmö, Sweden. However, some of the team prefers to work remotely, wherever "home" may be.

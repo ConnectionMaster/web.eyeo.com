@@ -1,3 +1,0 @@
-Our Cologne office is part of the [Leitrad Lofts](http://www.leitrad.koeln/lage/), a brand new building that we and other startups call home. We created our office rooms with our own ideas and love spending time on our terrace enjoying a BBQ or cooking in our huge kitchen. The Leitrad Lofts are located in Cologne-Ehrenfeld, a district that was once connected to production and manufacturing and is today a place of refined services, as well as a major center for innovative and creative companies. Being near the motorway, three lines of public transportation and the city train offers quick access to all the go-to spots downtown. Happy hour anyone?
-
-<? include jobs/office-gallery ?>

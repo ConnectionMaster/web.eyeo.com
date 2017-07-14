@@ -795,7 +795,8 @@ textarea:focus
   border-color: #b5b5b5;
 }
 
-header > *, .content-block
+.page-title > *,
+.content-block
 {
   padding: 0 10px;
 }
