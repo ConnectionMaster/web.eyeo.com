@@ -406,8 +406,6 @@ button:focus,
 #home-image-container
 {
   background-color: #f0f0f0;
-  text-align: center;
-  margin: 0;
 }
 
 #who-we-are
@@ -803,8 +801,10 @@ textarea:focus
 
 #home-image-container img
 {
+  display: block;
   width: 100%;
   max-width: 1080px;
+  margin: 0 auto;
 }
 
 #jobs-overview-tab
