@@ -28,8 +28,4 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 - Must be fluent in written and spoken English
 - Looking for candidates in Berlin, or candidates willing to relocate to Berlin
 
-*If this looks / sounds / feels like you, please get in contact with your CV/resume, a short summary of why you’re applying.*
-
-*eyeo is an equal opportunity employer, and encourages people of all genders, ethnicity, national origins, orientations, etc., to apply.*
-
 <? include jobs/footer ?>

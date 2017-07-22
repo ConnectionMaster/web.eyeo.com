@@ -33,6 +33,4 @@ If all this looks, sounds and feels like you, but none of the jobs currently lis
 
 **If you have any questions upfront drop our HR Manager a message or call her!**
 
-eyeo is an equal opportunity employer, and encourages people of all genders, ethnicities, national origins, orientations, etc., to apply.
-
 <? include jobs/footer ?>

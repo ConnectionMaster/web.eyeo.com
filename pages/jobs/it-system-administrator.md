@@ -30,8 +30,4 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 - Professional experience in audio / video post-production editing
 - Knowledge about room acoustics and how they impact conference rooms
 
-If this looks / sounds / feels like you, please get in contact with your CV/resume, a short summary of why you’re applying, your earliest possible start date and your salary expectations.
-
-<small>eyeo is an equal opportunity employer, and encourages people of all genders, ethnicity, national origins, orientations, etc., to apply.</small>
-
 <? include jobs/footer ?>
