@@ -1,0 +1,77 @@
+<style>
+
+#media
+{
+  text-align: center;
+}
+
+#media-links
+{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#media-links li
+{
+  display: inline-block;
+  position: relative;
+  margin: 0px 10px 20px;
+}
+
+.publisher-logo
+{
+  max-height: 25px;
+  max-width: 100%;
+}
+
+.external-link-icon
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  margin-left: -10px;
+  margin-top: -12px;
+  opacity: 0;
+}
+
+#media-links a:hover .external-link-icon,
+#media-links a:focus .external-link-icon
+{
+  opacity: 1;
+}
+
+#media-links a:hover .publisher-logo,
+#media-links a:focus .publisher-logo
+{
+  opacity: 0.2;
+}
+
+#media small
+{
+  display: block;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 620px) and (max-width: 930px)
+{
+  /* Force more than only one logo to flow onto a second line */
+  #media-links
+  {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 930px)
+{
+  #media small
+  {
+    display: none;
+  }
+}
+
+</style>

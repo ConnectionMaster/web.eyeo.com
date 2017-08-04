@@ -1,0 +1,46 @@
+{% set media_coverage = [
+  {
+    "url": "http://www.mediapost.com/publications/article/289691/adblock-plus-comes-to-new-york.html",
+    "publisher": "Media Post",
+    "image": "media-post"
+  },
+  {
+    "url": "https://www.nytimes.com/2015/08/20/technology/personaltech/ad-blockers-and-the-nuisance-at-the-heart-of-the-modern-web.html",
+    "publisher": "The New York Times",
+    "image": "new-york-times"
+  },
+  {
+    "url": "https://www.wsj.com/articles/adblock-plus-chief-till-faida-says-consumers-are-fed-up-with-current-online-ads-1462981668",
+    "publisher": "The Wall Street Journal",
+    "image": "wall-street-journal"
+  },
+  {
+    "url": "https://techcrunch.com/2016/05/09/adblock-plus-closes-in-on-a-billion-downloads/",
+    "publisher": "TechCrunch",
+    "image": "techcrunch"
+  },
+  {
+    "url": "http://www.businessinsider.com/theres-nothing-wrong-about-the-way-adblock-plus-makes-money-2015-9",
+    "publisher": "Business Insider",
+    "image": "business-insider"
+  }
+] %}
+
+{% macro media_coverage_item(item) -%}
+  <a href="{{ item.url }}" target="_blank" title="Open featured {{ item.publication }} article in a new window">
+    <img class="publisher-logo" alt="{{ item.publisher }} logo" src="/images/coverage/{{ item.image }}-1x.png" srcset="/images/coverage/{{ item.image }}-2x.png 2x">
+    <img class="external-link-icon" src="/images/icon-external-link.png" srcset="/images/icon-external-link.svg 2x" alt="External link icon">
+  </a>
+{% endmacro %}
+
+<h1 class="heading">
+  <span>Media coverage:</span>
+</h1>
+
+<small>(Links open in a new window)</small>
+
+<ul id="media-links">
+  {% for item in media_coverage %}
+    <li>{{ media_coverage_item(item) }}</li>
+  {% endfor %}
+</ul>
