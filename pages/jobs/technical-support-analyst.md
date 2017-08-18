@@ -3,6 +3,8 @@ description=eyeo needs a Technical Support Analyst to provide first level user s
 
 <? include jobs/header ?>
 
+Are you able to spot the slightest bit of relevant information in user requests to understand the actual issue? Can you take complex information and turn it into clear, logical and easy to understand answers for users? Above all else, do you enjoy helping people? If you answered yes to these questions, then this opportunity is for you.
+
 ### Responsibilities
 
 - Work with users to identify, replicate and diagnose issues
