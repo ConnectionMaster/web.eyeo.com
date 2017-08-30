@@ -162,6 +162,14 @@ h6
   padding: 22px 10px;
 }
 
+@media print {
+  #header button,
+  #header .menu-button
+  {
+    display: none;
+  }
+}
+
 #logo
 {
   position: absolute;
