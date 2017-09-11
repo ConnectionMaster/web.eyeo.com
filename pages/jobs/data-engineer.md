@@ -11,7 +11,7 @@ eyeo is headquartered in Cologne, Germany with satellite offices in Berlin and M
 
 ### Job description
 
-Data is insight and as a continually expanding company with desktop products reaching 100 million users, a growing audience on mobile and a newly acquired system named Flattr, we work on the entire data-pipeline: from making data sources available to providing analysis and extracting insights. We are now at a point where we need to streamline the data pipeline so we are searching for an extra pair of hands, eyes and a big brain, to join our Data department.
+Data is insight. As a continually expanding company with desktop products reaching 100 million users, a growing audience on mobile and a newly acquired system named Flattr, we work on the entire data-pipeline from making data sources available, to providing analysis and extracting insights. We are now at a point where we need to streamline the data pipeline so we are searching for an extra pair of hands, eyes and a big brain, to join our Data department.
 
 ### Responsibilities
 
