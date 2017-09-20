@@ -32,6 +32,6 @@ Data is insight. As a continually expanding company with desktop products reachi
 - Experience in data-pipeline architecture or ETL tasks
 - Knowledge about scalable data platforms, containerization, continuous integration
 - Machine Learning would be a plus
-- Other than the technical requirements above, we need you to be part of the team: bring creativity to the table, have a problem solving attitude, be a team player and least but not least, understand the requirements at hand and explain your solutions.
+- Other than the technical requirements above, we need you to be part of the team: bring creativity to the table, have a problem solving attitude, be a team player and last but not least, understand the requirements at hand and explain your solutions.
 
 <? include jobs/footer ?>
