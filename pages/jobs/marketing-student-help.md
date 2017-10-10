@@ -1,5 +1,5 @@
-title=Flattr Campaign Coordinator (Student Help)
-description=eyeo needs a Campaign Coordinator to assist the Flattr team with building the best online community for content creators
+title=Marketing Student Help
+description=eyeo needs a Marketing Student Help to assist the Flattr team with building the best online community for content creators
 
 <? include jobs/header ?>
 
