@@ -1,12 +1,15 @@
         {% if opening %}
-          <a href="
-            {%- if opening[2] -%}
-              https://app.talentstracker.com/job_applications/new?position_id={{ opening[2] }}
+          {% set tracker = opening[2] %}
+          <a class="button" href="
+            {%- if tracker == GREENHOUSE -%}
+              https://boards.greenhouse.io/eyeo/jobs/{{ opening[3] }}
+            {%- elif tracker == TALENTTRACKER -%}
+              https://app.talentstracker.com/job_applications/new?position_id={{ opening[3] }}
             {%- else -%}
               mailto:jobs@eyeo.com
             {%- endif -%}
-          "><button>apply now</button></a>
-          {{ "jobs"|linkify }}<button class="why-work-here-button">why work here?</button></a>
+          ">apply now</a>
+          {{ "jobs"|linkify(class='button why-work-here-button') }}why work here?</a>
         {% endif %}
       </div>
     </div>
