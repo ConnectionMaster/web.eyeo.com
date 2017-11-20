@@ -23,7 +23,7 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 ### What we expect
 
 - You're enrolled at a German university, preferably studying subjects related to Business, Marketing, Communications or Media
-- You're fluent in verbal and written English. Fluency in additional languages is an advantage.
+- You're a native German speaker who is fluent in English. Fluency in other languages is a plus.
 - You're a people person and enjoy helping others
 - You're highly organized and thorough in work execution
 - You're proactive, self-motivated and you get things done
