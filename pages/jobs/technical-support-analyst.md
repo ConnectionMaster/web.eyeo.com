@@ -17,7 +17,7 @@ Are you able to spot the slightest bit of relevant information in user requests 
 - Passion for providing exceptional user service and resolving user issues
 - 1-2 years of technical support experience or equivalent
 - Experience in the software industry
-- Remarkable communication skills. Fluency in English (written and verbal) is required. Fluency in additional languages is an advantage.
+- You're a native German speaker who is fluent in English. Fluency in other languages is a plus.
 - Knowledge of various operating systems and web browsers, on both desktop and mobile
 - Technical aptitude and ability to quickly learn new technologies
 - Experience with social media is plus
