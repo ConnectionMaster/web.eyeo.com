@@ -9,7 +9,7 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 
 ### Responsibilities
 
-- Own and improve our entire streaming / video chat stack
+- Administer and maintain all of our communications stack ( Video conference, chat, phone, voip and so on)
 - Plan and improve conference room setups
 - Provide A/V tech support at live events hosted by eyeo
 - Ensure every employee, whether remote or local, has a good camera and microphone setup
@@ -18,7 +18,7 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 ### What we expect
 
 - Working experience with online video conferencing solutions
-- Experience in hardware and software support, including operating systems
+- Experience in hardware and software support, focus on Linux
 - Interest in audio / video equipment (e.g. Band / DJ / Theater technician)
 
 ### Nice to have
@@ -26,6 +26,7 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 - Experience with a wide range of operating systems
 - Experience with various printer systems
 - Knowledge of video conferencing systems hardware
+- Experience with live video streaming
 - Professional experience in audio / video recording / mixing
 - Professional experience in audio / video post-production editing
 - Knowledge about room acoustics and how they impact conference rooms
