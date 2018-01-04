@@ -1,7 +1,17 @@
 title=About Us
 description=Founded in 2011, eyeo is the company behind Adblock Plus, Adblock Browser and Flattr. We build products that millions of people use everyday to improve their online experience.
 
-<? include index/style ?>
+<head>
+  <? include index/style ?>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ config.get("general", "siteurl") }}",
+      "logo": "{{ config.get("general", "siteurl") }}/images/logo-3x.png"
+    }
+  </script>
+</head>
 
 <div id="home-image-container">
   <img alt="eyeo office" src="/images/eyeo-home-1x.png" />
