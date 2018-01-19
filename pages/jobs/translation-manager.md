@@ -10,18 +10,18 @@ Our multi-cultural team wants to change the Internet for the better, and you can
 
 eyeo is headquartered in Cologne, Germany with satellite offices in Berlin and Malmö. However, much of our team works remotely — and so can you.
 
-## Job description
+### Job description
 
 Are you passionate about languages? Do you expect to see high quality text, no matter the language, in the software you use? Do you think that exceptional translations are the key to keeping software users happy? If you answered “YES” to these questions, we want to hear from you!
 
-## Responsibilities
+### Responsibilities
 
 - Manage our community translations via Crowdin
 - Request and review translations from our outside agency
 - Manage our Translation Management System
 - Liaise with our agency as well as relevant eyeo teams and stakeholders
 
-## What we expect
+### What we expect
 
 - Fluent in spoken and written English
 - Fluent in spoken and written German + knowledge of other European or Asian languages
