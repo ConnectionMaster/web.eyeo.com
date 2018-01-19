@@ -11,35 +11,35 @@ eyeo is headquartered in Cologne, Germany with satellite offices in Berlin and M
 
 ### Job description
 
-Reach and connect - the tagline for every good marketer. 
+Reach and connect - the tagline for every good marketer.
 
 We need someone with quantitative marketing skills to move the needle on the adoption of our mobile products and grow our large desktop user base. You should be able to get our brands (and keep them) appearing first in keyword searches, and manage our paid social media campaigns.
 
 
 ### Responsibilities
 
-* Defining marketing goals / strategy for Adblock Plus, Adblock Browser, Flattr and other brands
-* Setting up digital marketing campaigns including paid posts and SEM
-* Monitoring and optimizing campaigns
-* Working with internal and external content suppliers
-* Creating reports and recommendations 
-* Conversion rate analysis and optimization
+- Defining marketing goals / strategy for Adblock Plus, Adblock Browser, Flattr and other brands
+- Setting up digital marketing campaigns including paid posts and SEM
+- Monitoring and optimizing campaigns
+- Working with internal and external content suppliers
+- Creating reports and recommendations
+- Conversion rate analysis and optimization
 
 ### What we expect
 
-* 5+ years experience in marketing analytics / business intelligence
-* 3+ years in a project lead role
-* Good knowledge of social media advertising
-* Experience with app store optimization 
-* Experience developing multi-tiered marketing strategies
+- 5+ years experience in marketing analytics / business intelligence
+- 3+ years in a project lead role
+- Good knowledge of social media advertising
+- Experience with app store optimization
+- Experience developing multi-tiered marketing strategies
 
 ### Nice to have
 
-* Experience at a small company or startup
-* Experience working with external agencies
-* Experience with companies bounded by privacy concerns
-* Experience in experimental marketing analytics
-* Experience with SproutSocial
-* Experience in conversion rate optimization
+- Experience at a small company or startup
+- Experience working with external agencies
+- Experience with companies bounded by privacy concerns
+- Experience in experimental marketing analytics
+- Experience with SproutSocial
+- Experience in conversion rate optimization
 
 <? include jobs/footer ?>
