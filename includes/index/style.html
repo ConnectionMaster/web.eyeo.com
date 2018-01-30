@@ -74,4 +74,61 @@
   }
 }
 
+/*
+ * Hero section
+ */
+
+#hero > div
+{
+  position: relative;
+  padding: 0;
+}
+
+#hero img
+{
+  display: block;
+  width: 100%;
+}
+
+#hero h1
+{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+@media (min-width: 350px)
+{
+  #hero h1
+  {
+    width: 80%;
+  }
+}
+
+@media (min-width: 450px)
+{
+  #hero h1
+  {
+    width: 60%;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px)
+{
+  #hero h1
+  {
+    padding: 15px;
+    width: 39%;
+    font-size: 22px;
+  }
+}
+
 </style>

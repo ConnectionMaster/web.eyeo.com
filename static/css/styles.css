@@ -423,11 +423,6 @@ button:focus,
  * Page-specific styles
  */
 
-#home-image-container
-{
-  background-color: #f0f0f0;
-}
-
 #who-we-are
 {
   margin-top: 25px;
@@ -819,14 +814,6 @@ textarea:focus
   padding: 0 10px;
 }
 
-#home-image-container img
-{
-  display: block;
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
 #jobs-overview-tab
 {
   display: none;
@@ -990,4 +977,13 @@ textarea:focus
   {
     margin-top: -40px;
   }
+}
+
+/*******************************************************************************
+ * .bg-* utilities
+ ******************************************************************************/
+
+.bg-accent
+{
+  background-color: #f0f0f0;
 }
