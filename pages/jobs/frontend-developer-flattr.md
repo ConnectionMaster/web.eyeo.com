@@ -1,4 +1,4 @@
-title=Frontend Developer - Flattr.com
+title=Front-end Developer (Flattr.com)
 desccription=eyeo is looking for a Front-end Developer focused on improving Flattr.com.
 
 <? include jobs/header ?>
