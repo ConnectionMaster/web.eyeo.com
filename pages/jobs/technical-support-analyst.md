@@ -1,5 +1,5 @@
-title=Technical Support Analyst
-description=eyeo needs a Technical Support Analyst to provide first level user support across multiple channels to ensure that our user experience is ahead of the curve.
+title=Technical Support Analyst | Mitarbeiter/-in technischer Kundenservice
+description=eyeo needs a Technical Support Analyst | Mitarbeiter/-in technischer Kundenservice to provide first-level user support across multiple channels to ensure that our user experience is ahead of the curve.
 
 <? include jobs/header ?>
 
