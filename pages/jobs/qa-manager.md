@@ -5,6 +5,8 @@ description=eyeo is looking for a QA Manager to define and implement standard QA
 
 eyeo is an open source web tech company that builds products like Adblock Plus, Adblock Browser and Flattr. Our mission is to give users more control over their online experience while offering creators, publishers and advertisers more ways to earn money for the free content they provide. We’re passionate about user agency, personal privacy, sustainability and keeping the web an open, fair resource for everyone.
 
+For this role, you must be willing to commute to Cologne on a weekly basis.
+
 ### Responsibilities
 
 - Developing a QA strategy together with the Head of QA
