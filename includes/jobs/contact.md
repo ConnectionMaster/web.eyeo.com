@@ -1,4 +1,4 @@
-![](/images/people/joanna.png)
+![](/images/people/florian.png)
 
-Joanna Sitarz<br>
+Florian Damian<br>
 Email: [jobs@eyeo.com](mailto:jobs@eyeo.com)
